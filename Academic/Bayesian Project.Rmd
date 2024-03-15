@@ -1,0 +1,702 @@
+---
+title: "DM - Statistique bayésien"
+author: "CHAPRON Antoine - KATHIR Ranujan"
+date: "14/02/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Analyse de données de comptage
+
+L’objectif est d’étudier l’association potentielle entre pauvreté et cancer du poumon au Royaume-Uni. Pour cela, des données ont été collectées dans 44 quartiers de la région de Londres. Pour chaque quartier $i={1,2,...,44}$ ont été collectés : 
+
+ - Le nombre observé $Y_i$ de cas de cancers du poumon chez les hommes âgés de plus de 65 ans et vivant dans le quartier $i$ 
+ - Le nombre attendu $E_i$ de cas de cancers du poumon chez les hommes âgés de plus de 65 et vivant dans le quartier $i$. Il s’agit d’une covariable soit d’une quantité supposée connue.
+ - Un indicateur $depriv_i$ de précarité socio-économique pour le quartier $i$. Plus $depriv_i$ a une valeur élevée, plus grand est le niveau de précarité socio-économique pour le quartier $i$.
+
+
+Les données observées sont :
+
+```{r}
+O = c(4,8,3,6,2,7,7,2,10,13,5,7,9,3,3,1,2,3,19,7,5,4,9,2,4,6,14,13,6,7,9,3,4,10,10,8,23,24,18,10,6,4,17,7)
+
+E=c(7.20902956,7.81436792,3.46693788,7.04393728,7.37412184,4.45749156,6.3285374,4.45749156,6.3285374,6.76878348,9.30019844,6.6036912,3.17289144,1.68706092,4.43859892,6.6036912,7.26406032,6.21847588,7.31909108,6.21847588,7.04393728,5.2934088044,10.370546722,6.58993351,6.1573917364,7.6701873288,13.9359896624,12.7473252464,6.2658023336,10.96487893,8.5341702608,6.1034615916,6.6977937996,8.9661617268,8.8043712924,8.3723798264,15.3166165772,15.7486080432,17.6933951016,8.642580858,4.969277628,6.3736626232,11.2890101064,6.3736626232)
+
+depriv=c(1.233,8.162,0.919,-0.78,-1.182,3.647,6.47,0.948,4.479,11.739,-0.125,0.063,4.392,-1.021,-0.609,1.896,-0.053,1.043,-0.899,8.441,5.81,3.575,5.78,-0.375,4.828,1.668,4.97,10.21,-0.234,7.804,5.544,-1.699,7.029,2.581,0.958,2.811,6.376,8.627,1.139,3.169,3.332,2.754,7.55,3.961)
+```
+
+### Question 1
+
+Nous suggérons pour commencer de représenter le nombre observé de casde cancers du poumon dans un quartier $i$ sous la forme d’un comptage Poissonnien d’espérance $E_i×μ_i$avec $E_i$ le nombre attendu de cas dansun quartier $i$ (covariable) et $μ_i$ un paramètre inconnu. Dans ce contexte :
+
+####  - Proposer un modèle probabiliste qui décrive la relation entre le nombre observé de cas (variable aléatoire réponse), le nombre attendu de cas et l’indicateur de précarité socio-économique associé, en supposant une fonction de lien log sur $μ_i$. 
+
+Le modèle probabiliste que nous proposons pour décrire la relation entre le nombre observé de cas de cancers du poumon et l'indicateur de précarité socio-économique est un modèle de régression Poisson généralisée. Ce modèle peut être défini comme suit : 
+$Y_i \sim \mathcal{P}(E_i \times \mu_i)$. 
+
+où $Y_i$ représente le nombre observé de cas de cancers du poumon dans le quartier $i$, $E_i$ représente le nombre attendu de cas dans le quartier $i$, $depriv_i$ représente l'indicateur de précarité socio-économique associé au quartier $i$, et $\mu_i$ représente un paramètre inconnu qui décrit la relation entre le nombre attendu de cas et l'indicateur de précarité socio-économique.
+
+La fonction de lien de $\mu_i$ est la suivante:
+$$
+log(\mu_i)=\beta_0 + \beta_1 depriv_i
+$$
+
+Dans ce modèle, la fonction de lien log est utilisée pour modéliser la relation entre le nombre observé de cas et le nombre attendu de cas. La fonction de lien log garantit que la distribution de la variable aléatoire réponse soit toujours positive et que la variance de la distribution soit proportionnelle à son espérance.
+
+Alors, on peut donc écrire:
+$$
+\mu_i = \exp(\beta_0 + \beta_1 depriv_i)
+$$
+On conclut à la relation suivante:
+$$
+Y_i \sim \mathcal{P}(E_i \times \exp(\beta_0 + \beta_1 depriv_i))
+$$
+  En ce qui concerne la signification de $μ_i$, c'est un paramètre qui représente la vitesse de croissance de la distribution de la variable aléatoire réponse. Plus précisément, $μ_i$ décrit la relation entre le nombre attendu de cas de cancers du poumon et l'indicateur de précarité socio-économique associé au quartier $i$. Ainsi, $\mu_i$ peut être considéré comme un facteur de risque pour le cancer du poumon en fonction du niveau de précarité socio-économique dans un quartier particulier.
+
+####  - Que représente $μ_i$ ?
+  
+  En ce qui concerne la signification de $μ_i$, c'est un paramètre qui représente la vitesse de croissance de la distribution de la variable aléatoire réponse. Plus précisément, $μ_i$ décrit la relation entre le nombre attendu de cas de cancers du poumon et l'indicateur de précarité socio-économique associé au quartier $i$. Ainsi, $\mu_i$ peut être considéré comme un facteur de risque pour le cancer du poumon en fonction du niveau de précarité socio-économique dans un quartier particulier.
+
+\textbf{Nous appellerons ce modèle $M_1$ par la suite.}
+
+### Question 2
+#### Ajuster votre modèle $M_1$ sous le paradigme fréquentiste avec la routine glm de R. Qu’en déduisez-vous ?
+```{r}
+library(stats)
+model_fit <- glm(O ~ depriv + offset(log(E)), family = poisson(link = "log"))
+summary(model_fit)
+```
+Les résultats du modèle montrent que $\beta_0$ vaut -0.185 et $\beta_1$ vaut 0.047. Ces deux coefficients sont significatifs au seuil de 5%. On peut donc dire qu’il y a une corrélation positive entre l'indicateur de précarité socio-économique associé et le nombre observé de cas.
+
+### Question 3
+
+Assigner des lois \textit{a  priori} sur les paramètres inconnus du modèle $M_1$. Justifier vos choix.
+
+Pour attribuer des lois a priori sur les paramètres inconnus du modèle $M_1$, nous pouvons utiliser des distributions conjointes sur les paramètres qui sont connues pour décrire les relations de causalité entre les variables de notre modèle.
+
+En général, pour les modèles de régression Poisson, une approche courante est d'utiliser une loi a priori Gaussienne pour les coefficients de régression, avec une moyenne nulle et une variance choisie en fonction de notre niveau de connaissance sur les paramètres. Par exemple, nous pouvons attribuer une loi $\mathcal{N}(0, 0.01)$ pour les coefficients $\beta_0$ et $\beta_1$, qui représentent la constante et l'effet de l'indicateur de précarité socio-économique sur le nombre de cas de cancer du poumon.
+$$β_0 \sim \mathcal{N}(0, 10^4)$$
+$$β_1 \sim \mathcal{N}(0, 10^4)$$
+La variance choisie est large pour permettre une meilleure exploration des valeurs possibles pour $\beta_0$ et $\beta_1$. 
+
+### Question 4
+#### Implémenter l’apprentissage statistique bayésien du modèle $M_1$ avec le package R : rjags. Justifier vos choix de paramétrage de l’algorithme.
+
+Dans ce code, nous définissons d'abord les données sous la forme d'une liste dans R. Ensuite, nous définissons le modèle JAGS en utilisant une boucle for pour décrire la relation entre le nombre observé de cas de cancer du poumon et les covariables attendues et de précarité socio-économique. Nous définissons également les lois $a$ $priori$ pour les paramètres $\beta_0$ et $\beta_1$ en utilisant une loi normale centrée sur 0 avec une variance faible (0.01).
+
+Enfin, nous utilisons l'interface R rjags pour compiler le modèle, effectuer la simulation de Gibbs et récupérer les résultats sous forme de tableau.
+
+```{r}
+# Charger le package rjags
+library(rjags)
+
+# Définir les données
+data <- list(y = O, E = E, depriv = depriv, N = length(O))
+
+# Définir le modèle JAGS
+model_string <- "
+model {
+  for (i in 1:N) {
+    y[i] ~ dpois(mu[i] * E[i])
+    log(mu[i]) <- beta0 + beta1 * depriv[i]
+  }
+  beta0 ~ dnorm(0, 10^(-4))
+  beta1 ~ dnorm(0, 10^(-4))
+}"
+
+writeLines(model_string, con="M1.bug")
+
+# Compiler le modèle JAGS
+n.chain <- 3
+
+model <- jags.model(textConnection(model_string), data = data, n.chains = n.chain)
+
+# Effectuer la simulation de Gibbs
+burnin <- 1000
+n.iter <- 10*burnin
+update(model, n.iter = n.iter)
+
+# Récupérer les résultats de la simulation
+samples <- coda.samples(model, c("beta0", "beta1"), n.iter = n.iter, thin = 1)
+
+summary(samples)
+```
+
+### Question 5
+#### Faire un diagnostic de convergence de votre algorithme MCMC vers sa loi stationnaire en considérant au moins deux critères différents. Qu’en pensez-vous ?
+
+Le choix de la loi $a$ $priori$ sur les paramètres est une loi normale centrée sur zéro, avec une variance très faible (0.01). Ce choix peut être justifié par l'absence d'informations $a$ $priori$ sur les valeurs de ces paramètres, et par la volonté de limiter l'influence de ces lois a priori sur les résultats finaux.
+
+```{r}
+# Diagnostic de Gelman-Rubin
+library(coda)
+gelman.diag(samples)
+```
+
+
+```{r}
+library(ggplot2)
+library(ggmcmc)
+model.samples.gg1 <- ggs(samples)
+ggs_traceplot(model.samples.gg1)
+```
+
+```{r}
+ggs_grb(model.samples.gg1, version_rhat = "BG98")
+```
+
+
+En examinant les traceplots et les diagnostics de Gelman-Rubin, on peut conclure que les chaînes ont convergé vers leur loi stationnaire. Les traceplots montrent une fluctuation aléatoire autour d'une certaine valeur pour les deux paramètres, et les ratios de variance du diagnostic de Gelman-Rubin sont égaux à 1, ce qui suggère une bonne convergence.
+
+### Question 6
+####Analyser les autocorrélations intra-chaînes et calculer la taille d’échantillon effective pour chaque paramètre. Qu’en pensez-vous ?
+
+```{r}
+ggs_autocorrelation(model.samples.gg1)
+```
+
+Les autocorrélations pour $\beta_0$ et $\beta_1$ sont affichées ainsi que leur taille d'échantillon effective. Pour une chaîne convergente, on s'attend à avoir des autocorrélations faibles et une taille d'échantillon effective élevée.
+
+En examinant les résultats, on peut constater que les autocorrélations pour les deux paramètres décroissent rapidement et sont faibles, ce qui suggère une convergence rapide de la chaîne MCMC.
+
+```{r}
+effectiveSize(samples)
+```
+
+De plus, les tailles d'échantillon effectives (la taille d’échantillon effective est le nombre de tirages indépendants équivalents à ($i.e.$, ayant la même standard error que) un ensemble de tirages corrélés issus d’une chaîne de Markov) pour les deux paramètres sont relativement élevées, ce qui suggère que la taille d'échantillon est suffisamment grande pour estimer les paramètres avec une précision raisonnable.
+
+Dans l'ensemble, ces résultats suggèrent que l'algorithme MCMC a convergé vers sa loi stationnaire et fournit des échantillons représentatifs de la distribution postérieure des paramètres.
+
+### Question 7
+#### Centrer-réduire la covariable $depriv$ et reprendre les questions 4 à 6. Que remarquez-vous ?
+
+La première étape est de centrer et réduire notre variable $depriv$ et de stocker nos données normalisées sous la variables $depriv\_normalized$
+
+```{r}
+data$depriv_normalized <- (data$depriv - mean(data$depriv))/sd(data$depriv)
+```
+
+```{r}
+# Définir le modèle JAGS
+model_string2 <- "
+model {
+  for (i in 1:N) {
+    y[i] ~ dpois(mu[i] * E[i])
+    mu[i] <- exp(beta0 + beta1 * depriv[i])
+  }
+  beta0 ~ dnorm(0, 10^(-4))
+  beta1 ~ dnorm(0, 10^(-4))
+}"
+
+data2 <- list(y = data$y, E = data$E, depriv = data$depriv_normalized, N = length(O))
+
+# Compiler le modèle JAGS
+model2 <- jags.model(textConnection(model_string2), data = data2, n.chains = 3)
+
+# Effectuer la simulation de Gibbs
+update(model2, n.iter = n.iter)
+
+# Récupérer les résultats de la simulation
+samples2 <- coda.samples(model2, c("beta0", "beta1"), n.iter = n.iter)
+
+summary(samples2)
+```
+
+```{r}
+gelman.diag(samples2)
+model.samples.gg2 <- ggs(samples2)
+```
+
+```{r}
+ggs_traceplot(model.samples.gg2)
+```
+
+
+```{r}
+ggs_grb(model.samples.gg2, version_rhat = "BG98")
+```
+
+On peut remarquer que les résultats sont très similaires à ceux obtenus précédemment.
+
+```{r}
+# Autocorrélations intra-chaînes
+ggs_autocorrelation(model.samples.gg2)
+```
+
+On remarque que les autocorrélations sont toujours présentes, mais sont considérablement réduites par rapport à la situation précédente. 
+
+```{r}
+# Taille d'échantillon effective
+effectiveSize(samples2)
+```
+
+La taille d'échantillon effective est également plus grande pour les deux paramètres, ce qui indique que les chaînes MCMC sont maintenant plus efficaces. Donc centrer-réduire la covariable $depriv$ a permis d'améliorer les performances de notre modèle et d'obtenir des résultats plus fiables.
+
+### Question 8
+#### Donner la moyenne et la médiane $a$ $posteriori$ ainsi que l’intervalle de crédibilité à 95% des différents paramètres inconnus du modèle $M_1$. Représenter également les lois $a$ $posteriori$ obtenues. Commenter vos résultats.
+
+Nous répondrons à cette question en utilisant le modèle précédent.
+
+```{r}
+MCMC <- summary(samples2)
+MCMC
+```
+
+La moyenne obtenue pour $\beta_0$ est de -0.03 (approximativement), et la médiane est elle aussi de -0.03. On obtient ainsi un intervalle de confiance à 95% de $\beta_0$ de -0.14 à 0.08.
+
+De même, la moyenne obtenue pour le paramètre $\beta_1$ est donc de 0.16 (approximativement). Quant à la médiane, elle est de 0.16 (approximativement). On obtient ainsi un intervalle de confiance à 95% de $\beta_1$ de 0.06 à 0.26.
+
+On peut représenter ces résulats sous la forme de densités. Celles-ci sont tracées ci-dessous.
+
+```{r}
+model.samples.all2<- mcmc(do.call(rbind, samples2))
+model.samples.gg.all2 <- ggs(model.samples.all2)
+
+ggs_density(model.samples.gg.all2,family="beta0")
+```
+
+```{r}
+ggs_density(model.samples.gg.all2,family="beta1")
+```
+
+### Question 9
+
+#### Écrire formellement le logarithme de la loi $a$ $posteriori$ du modèle et en chercher numériquement ou analytiquement le maximum $a$ $posteriori$. En continuant la dérivation, évaluer la Hessienne et réaliser le développement quadratique du logarithme de la loi $a$ $posteriori$, afin de donner une approximation asymptotique multi-normale de la loi $a$ $posteriori$ jointe du modèle $M_1$. On générera un échantillon de 100 000 valeurs selon cette approximation asymptotique.
+
+On souhaite calculer $log[\beta_0,\beta_1|Y]$.
+On a la relation suivante par la formule de Bayes:
+$$
+[\beta_0,\beta_1|Y] \propto [Y|\beta_0,\beta_1][\beta_1][\beta_0]
+$$
+car $\beta_0$ et $\beta_1$ sont indépendants. 
+
+Or, on a les signatures suivantes:
+$$
+[Y|\beta_0,\beta_1] = \prod_{i=1}^n\frac{\exp(-E_i\exp(\beta_0 + \beta_1depriv_i))(\exp(\beta_0 + \beta_1depriv_i)E_i)^{Y_{i}}}{Y_i!}
+$$
+$$
+[\beta_0] = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{1}{2}\frac{\beta_0^2}{\sigma^2}) = \frac{1}{10^2\sqrt{2\pi}}\exp(-\frac{1}{2\cdot10^4}\beta_0^2)
+$$
+
+$$
+[\beta_1] = \frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{1}{2}\frac{\beta_1^2}{\sigma^2}) = \frac{1}{10^2\sqrt{2\pi}}\exp(-\frac{1}{2\cdot10^4}\beta_1^2)
+$$
+
+Alors:
+
+$$
+log[\beta_0,\beta_1|Y]  \propto  log[Y|\beta_0,\beta_1] + log[\beta_1] + log[\beta_0]
+$$
+
+$$
+ \propto  \sum_{i=1}^n ({-E_i\exp(\beta_0 + \beta_1depriv_i)+Y_i(log(E_i)+\beta_0+\beta_1depriv_i)} - \frac{1}{2\cdot10^4}(\beta_0^2+\beta_1^2)
+$$
+
+Pour maximiser cette loi, on doit calculer le vecteur gradient:
+$$
+\nabla log[\beta_0,\beta_1|Y] = 
+\begin{pmatrix}
+   -\sum_{i=1}^n E_i\exp(\beta_0 + \beta_1depriv_i) + \sum_{i=1}^nY_i -\frac{1}{10^4}\beta_0  \\
+   -\sum_{i=1}^n E_idepriv_i\exp(\beta_0 + \beta_1depriv_i) + \sum_{i=1}^nY_idepriv_i -\frac{1}{10^4}\beta_1
+\end{pmatrix}
+$$
+
+Calculons maintenant la Hessienne de ce problème de maximisation:
+
+$$
+H = 
+\begin{pmatrix}
+   -\sum_{i=1}^n E_i\exp(\beta_0 + \beta_1depriv_i) -\frac{1}{10^4}  & -\sum_{i=1}^n E_idepriv_i\exp(\beta_0 + \beta_1depriv_i)\\
+   -\sum_{i=1}^n E_idepriv_i\exp(\beta_0 + \beta_1depriv_i) & -\sum_{i=1}^n E_idepriv_i^2\exp(\beta_0 + \beta_1depriv_i) - \frac{1}{10^4}
+\end{pmatrix}
+$$
+
+```{r}
+var0 = 10^4
+
+minus_Logpost<- function(par, var0){
+  beta0 = par[1]
+  beta1 = par[2]
+  return(sum(data$E*exp(beta0+beta1*data$depriv_normalized))
+         -sum(data$y*log(data$E))
+         -beta0*sum(data$y)
+         -beta1*sum(data$depriv_normalized*data$y)
+         +(beta0**2)/(2*var0)
+         +(beta1**2)/(2*var0)
+         )
+}
+
+Gradient<- function(par, var0){
+  beta0 = par[1]
+  beta1 = par[2]
+  gradbeta0 = sum(data$E*exp(beta0+beta1*data$depriv_normalized))-sum(data$y)+beta0/var0
+  gradbeta1 = sum(data$E*data$depriv_normalized*exp(beta0+beta1*data$depriv_normalized))-sum(data$depriv_normalized*data$y)+beta1/var0
+  return(gradbeta0, gradbeta1)
+}
+
+
+#MAP
+beta_MAP<- optim(c(0,0),fn=minus_Logpost, var0=var0 , gr=Gradient)$par
+beta_MAP
+```
+
+Le paramètre $\beta_0$ vaut -0.03 et $\beta_1$ vaut 0.16.
+On peut maintenant évaluer la hessienne:
+
+```{r}
+hess = matrix(c(-sum(exp(beta_MAP[1]+beta_MAP[2]*data$depriv_normalized))-1/var0,
+              -sum(data$E*data$depriv_normalized*exp(beta_MAP[1]+beta_MAP[2]*data$depriv_normalized)),
+              -sum(data$E*data$depriv_normalized*exp(beta_MAP[1]+beta_MAP[2]*data$depriv_normalized)),
+              -sum(data$E*data$depriv_normalized**2*exp(beta_MAP[1]+beta_MAP[2]*data$depriv_normalized)))-1/var0,
+              ncol=2)
+hess
+```
+
+Posons $\beta = (\beta_0, \beta_1)$. La loi $[\beta_0,\beta_1|Y]$ peut être approchée par la loi normale multivariée suivante:
+$$
+[\beta|Y] \sim \mathcal{N}_2
+(\beta^{MAP},[nI(\beta^{MAP})+R]^{-1})
+$$
+où $\beta^{MAP}$ est le mode a posteriori (MAP). $I(\beta^{MAP})$ est la $2\times2$ matrice d’information de Fisher normalisée observée (= opposée de la matrice Hessienne) associée au modèle d’observations $[.|\beta]$. $R$ est la matrice de précision a priori.
+
+On en déduit que $\beta|Y∼ \mathcal{N}_2(\beta^{MAP},\sigma_{post}^2)$.
+
+La variance a posteriori asymptotique en $\beta_{MAP}$ vaut :
+$$
+\sigma_{post}^2=(n\exp(\beta_{MAP})+\frac{1}{\sigma_{0}^2})^{−1}
+$$
+avec $R=\frac{1}{\sigma_{0}^2}$ et $I(\beta_{MAP})=\exp(\beta_{MAP})$.
+
+```{r}
+n=length(O)
+Postasymptotic_variance = solve(n*(-hess)+diag(1/var0,ncol=2,nrow = 2))
+Postasymptotic_variance
+```
+
+On peut ainsi représenter mes densités estimées de nos paramètres.
+
+```{r}
+library(mvtnorm)
+ech_betaMAP= as.data.frame(rmvnorm(100000,mean=beta_MAP,Postasymptotic_variance))
+names(ech_betaMAP) = c("beta0MAP","beta1MAP")
+ggplot(data = ech_betaMAP)+
+  geom_density(aes(beta0MAP))+
+  ggtitle("beta0 MAP") 
+```
+
+
+```{r}
+ggplot(data = ech_betaMAP)+
+  geom_density(aes(beta1MAP))+
+  ggtitle("beta1 MAP")
+```
+
+### Question 10
+
+#### Comparer les estimations fournies par les trois méthodes ($i.e.$, fréquentiste,bayésienne via algorithme MCMC implémenté sous rjags, bayésienne via approximation de Laplace). Qu’en concluez-vous ?
+
+Pour faciliter la comparaison, on réalise une analyse fréquentiste sur les données centrées de pourcentage de couverture.
+
+```{r}
+model_fit <- glm(y ~ depriv_normalized + offset(log(E)), family = poisson(link = "log"), data=data)
+summary(model_fit)
+```
+
+On remarque que les valeurs de $\beta_0$ et de $\beta_1$ obtenues via les différentes approches sont toutes différentes sont les mêmes.   
+
+Représentons ces comparaisons sous la forme de densités. Celles-ci sont tracées ci-dessous.
+
+```{r}
+ech_betaFreq = as.data.frame(rmvnorm(100000,mean=model_fit$coefficients,diag(c(0.1583,0.1929),ncol=2,nrow = 2)))
+colnames(ech_betaFreq) = c("beta0Freq","beta1Freq")
+
+plot(density(ech_betaMAP$beta0MAP), xlim=c(-2,2), main = "comparaison pour Beta0")
+lines(density(ech_betaFreq$beta0Freq), col = "steelblue")
+lines(density(c(samples2[[1]][,1],samples2[[2]][,1],samples2[[3]][,1])),col="red")
+legend(x=10.5,y=1.2,legend=c("Laplace","Frequentiste","MCMC"),col=c("black","steelblue","red"))
+```
+
+```{r}
+plot(density(ech_betaMAP$beta1MAP), xlim=c(-2,2), main = "comparaison pour Beta1")
+lines(density(ech_betaFreq$beta1Freq), col = "steelblue")
+lines(density(c(samples2[[1]][,2],samples2[[2]][,2],samples2[[3]][,2])),col="red")
+legend(x=10.5,y=1.2,legend=c("Laplace","Frequentiste","MCMC"),col=c("black","steelblue","red"))
+```
+
+En comparant les densités estimées selon les différentes approches, on remarque que la méthode de Laplace est plus précise. La moins précise est l’approche fréquentiste. Il vaut mieux donc utiliser la méthode de Laplace. Néanmoins, celle-ci est coûteuse pour le statisticien qui doit effectuer un travail de modelisation préalable. 
+
+### Question 11 
+
+#### Résoudre l’inférence bayésienne du modèle $M_1$ par l’écriture directe d’un algorithme de Metropolis-Hastings. Pour se simplifier la vie, on se limitera au cas où le paramètre $\beta$ est supposé connu et fixé à sa valeur précédemment estimée.
+
+##### Écrire une fonction R nommée MCMC qui va permettre d’échantillonner dans la loi a posteriori du paramètre $α$ en utilisant un algorithme de Métropolis-Hastings basé sur la loi de proposition normale suivante (marche aléatoire):
+  $$
+  \alpha^{cand} \sim \mathcal{N}(\alpha^{curr}, \sigma^{2}_{prop}) 
+  $$
+
+#####  avec $\alpha^{cand}$ et $\alpha^{curr}$ la valeur candidate et courante respective du paramètre $\alpha$ à une itération donnée.
+
+On choisit de fixer $\beta_1$ à 0.16. (valeur obtenu précédemment dans le cadre fréquentiste)
+Tout d’abord, ecrivons une fonction R nommée `runmcmc` qui va permettre d’échantillonner dans la loi a posteriori du paramètre $\beta_0$ en utilisant un algorithme de Métropolis-Hastings basé sur la loi de proposition normale suivante (marche aléatoire) : 
+  
+$$
+{\beta_0}^{cand} \sim \mathcal{N}({\beta_0}^{curr},\sigma^2_{prop})
+$$
+  
+avec ${\beta_0}^{cand}$ et ${\beta_0}^{curr}$ la valeur candidate et courante respective du paramètre $\alpha$ à une itération donnée.
+
+```{r}
+beta1MH = 0.16
+var0 = 10^4
+
+target<-function(beta0){
+  return(exp(-sum(data$E*exp(beta0+beta1MH*data$depriv_normalized))
+         +beta0*sum(data$y)
+         +beta1MH*sum((data$depriv_normalized)*data$y)
+         -(beta0^2)/(2*var0)
+         -(beta1MH^2)/(2*var0)
+         ))
+}
+
+
+runmcmc <- function(sigma, n.iter, beta0_init){
+  #Etat initial de la chaîne de Markov
+  beta0_curr = beta0_init
+  #Valeur de la loi a posteriori en l'état initial 
+  oldtarget = target(beta0_curr)
+  
+  #Chaîne de Markov
+  beta0_chain = beta0_curr
+  #Vecteur binaire stockant acceptation ou non à chaque itération de l'algorithme
+  accept=vector("numeric", n.iter)  
+  
+  
+  for(i in 1:(n.iter-1)){
+    #Tirage d'une valeur candidate pour beta0  
+    #dans une loi de proposition
+    beta0_cand = rnorm(n=1,beta0_curr,sigma)
+    newtarget = target(beta0_cand)
+    
+    #Calcul du ratio de Metropolis-Hastings
+    ratioMH = newtarget/oldtarget
+    
+    #Etape d'acceptation-rejet
+    u=runif(1)
+    if (u < ratioMH){#Acceptation de la valeur candidate 
+        beta0_curr=beta0_cand
+        oldtarget=newtarget
+        accept[i] = 1
+    }
+    #Stockage des tirages de beta0
+    beta0_chain = c(beta0_chain,beta0_curr)
+  
+  }
+  
+  return(list(post_samples=beta0_chain,taux_accept= mean(accept)))
+}
+```
+
+
+#####  - Choix du saut $\sigma$ prop: Utiliser la fonction MCMC précédemment implémentée pour calculer puis tracer l’évolution du taux d’acceptation associé à la mise à jour de $\alpha$ en fonction de différentes valeurs du paramètre $\sigma_{prop}$ (par exemple, allant de 0.1 à 1 par pas de 0.05). Pour chaque valeur de $\sigma_{prop}$, on pourra faire tourner une seule chaîne de Markov pendant 10 000 itérations pour cette étape de calibration. Quelle valeur de $\sigma_{prop}$ vous semble la meilleure (rappel : viser un taux d’acceptation d’environ 40%) ? Vous conserverez cette valeur pour la suite.
+
+En utilisant la fonction runmcmc précédemment implémentée, on calcule et on trace l’évolution du taux d’acceptation associé à la mise à jour de $\beta_0$ en fonction de différentes valeurs du paramètre $\sigma_{prop}$ (par exemple, allant de 0.1 à 1 par pas de 0.05). Pour chaque valeur de σprop, on pourra faire tourner une seule chaîne de Markov pendant 10 000 itérations pour cette étape de calibration.
+
+```{r}
+for (i in seq(0.1,1,0.05)){
+ print(list(sigma = i, taux = runmcmc(sigma = i,10000,0.1)$taux_accept))
+}
+```
+
+La valeur de $\sigma_{prop}$ appropriée est celle visant un taux d’appectation d’environ 40%. On obtient un $\sigma_{prop}$ = 0.15 .
+  
+#####  - Lancer à présent 3 chaînes de Markov à partir de positions initiales différentes en fixant $\alpha_{prop}$ à la valeur précedemment choisie afin degénérer 3 échantillons $(\alpha^{(1)},...,\alpha^{(G)})$ de taille $G= 20 000$
+
+```{r}
+#Chaîne 1 : Laplace
+chaine1 = runmcmc(sigma = 0.15, n.iter=20000, beta0_init=-0.03)$post_samples
+#Chaîne 2 : Fréquentiste
+chaine2 = runmcmc(sigma = 0.15, n.iter=20000, beta0_init=-0.03)$post_samples
+#Chaîne 3 : Bayésienne
+chaine3 = runmcmc(sigma = 0.15, n.iter=20000, beta0_init=-0.03)$post_samples
+
+#Trace des chaînes de Markov
+model.samples3 <- mcmc.list(mcmc(matrix(chaine1,nrow=n.iter,ncol=1,byrow=FALSE)), mcmc(matrix(chaine2,nrow=n.iter,ncol=1,byrow=FALSE)), mcmc(matrix(chaine3,nrow=n.iter,ncol=1,byrow=FALSE)))
+```
+
+#####  - Assurez-vous de l’absence de problème de convergence majeur de votre algorithme MCMC. Combien d’itérations $X$ vous semblent a minima nécessaires pour espérer avoir atteint l’état stationnaire ?
+
+Analysons maintenant la convergence des chaines de Markov obtenues. En regardant les trajectoire des chaines, celle-ci convergent. De plus, le critère de Gelam-Rubin est vérifié. On a bien une convergence avec le modèle de Metropolis-Hasting. Il faut environ 1355 iterations pour atteindre cette convergence.
+
+```{r}
+#Tracer des chaînes de Markov
+model.samples.gg3 <- ggs(model.samples3)
+ggs_traceplot(model.samples.gg3)
+```
+  
+```{r}
+ggs_grb(model.samples.gg3,version_rhat="BDA2")
+```
+
+```{r}
+model.samplesMH <- mcmc.list(mcmc(chaine1[-c(1:burnin)]), mcmc(chaine2[-c(1:burnin)]), mcmc(chaine3[-c(1:burnin)]))
+
+#Taille effective de l'échantillon
+effectiveSize(model.samplesMH)
+```
+
+#####  - Comparer les résultats d’estimation bayésienne du paramètre $\alpha$ obtenus avec votre algorithme MCMC avec ceux obtenus avec le package R "rjags".
+
+```{r}
+#Chaînes de Markov concaténées du paramètre lambda obtenues à partir de l'échantillon ci-dessus
+beta0MH= c(chaine1[-c(1:burnin)],chaine2[-c(1:burnin)],chaine3[-c(1:burnin)])
+```
+
+```{r}
+plot(density(beta0MH), main = "comparaison pour Beta0",xlim=c(-1,1), col = "chocolate1")
+lines(density(c(samples2[[1]][,1],samples2[[2]][,1],samples2[[3]][,1])),col="red")
+legend(x=10.5,y=1.2,legend=c("MCMC","MH"),col=c("red","chocolate1"))
+```
+
+Les densités montre que Metropolis-Hasting fournis des résultats, certes moins lisses, mais plus précis que rjags.
+ 
+### Question 12
+
+#### Dans cette question, on propose d’étudier les capacités prédictives du modèle $M_1$:
+
+
+##### - Prédire, avec une approche bayésienne, le nombre de cas de cancer du poumon dans chaque quartier $i={1,...,44}$ en fonction de la précarité socio-économique. Pour cela, utiliser une méthode de "Leave-One-Out Cross Validation" : Pour chaque quartier $i$ dont le nombre de cas de cancer est à prédire, mener l’apprentissage statistique bayésien du modèle $M_1$ sur l’échantillon d’apprentissage constitué des données relatives aux $I−1$(avec $I=44$) quartiers restants ($i.e.$, tousles quartiers sauf le quartier $i$)
+
+
+
+
+##### - Représenter graphiquement le nombre médian prédit de cas de cancer du poumon ainsi qu’un intervalle d’incertitude à 95% pour chaque quartier $i$. Comparer avec les nombres de cas de cancer du poumon observés. Commenter vos résultats. 
+
+
+
+##### - Estimer le score prédictif moyen de Brier défini par :
+  $$
+  BR = \frac{1}{I}\sum_{i=1}^{n}(-2 \times P_{Y_i|Y_{-i}}(y_i) + \left\|P_{Y_i|Y_{-i}}\right\|^{2})
+  $$
+avec $y_i$ le nombre observé de cas de cancers dans le quartier $i$,$P_{Y_i|Y_{−i}}$ la loi prédictive $a$ $posteriori$ de $Y_i$ et
+  $$
+      \left\|P_{Y_i|Y_{-i}}\right\|^{2} = \sum_{n=0}^{\infty}P(Y_{i}=k|Y_{-i})^{2}
+  $$
+
+
+### Question 13
+
+#### Proposer et ajuster, sous le paradigme bayésien, un modèle alternatif intégrant un effet aléatoire quartier-spécifique. \textbf{On appellera ce modèle $M_2$.}
+
+Pour ajouter un effet aléatoire quartier-spécifique, on peut utiliser un modèle hiérarchique où chaque quartier $i$ possède une variance $\sigma_i^2$ associée à son effet aléatoire.
+
+```{r}
+# Définir le modèle JAGS
+modelstring2 <- "
+model {
+  for (i in 1:N) {
+    y[i] ~ dpois(mu[i] * E[i])
+    log(mu[i]) <- beta0[i] + beta1 * depriv[i]
+    beta0[i] ~ dnorm(mu_beta0, tau_beta0)
+  }
+  beta1 ~ dnorm(0, 10^(-4))
+  mu_beta0 ~ dnorm(0, 10^(-4))
+  tau_beta0 ~ dgamma(10^(-4), 10^(-4))
+}"
+
+writeLines(modelstring2, con="M2.bug")
+```
+
+Dans ce modèle, on ajoute une nouvelle variable `beta0[i]` pour représenter l'effet aléatoire quartier-spécifique du quartier $i$. Cette variable suit une loi normale centrée sur la moyenne commune $\mu_{\beta_0}$ et dont la variance est déterminée par la variance spécifique au quartier `sigma2[i]`. On utilise une distribution uniforme sur les variances `sigma2[i]` pour éviter les valeurs aberrantes.
+
+```{r}
+# Compiler le modèle JAGS
+M2 <- jags.model(textConnection(modelstring2), data = data2, n.chains = 3)
+
+# Effectuer la simulation de Gibbs
+update(M2, n.iter = n.iter)
+
+# Récupérer les résultats de la simulation
+samplesM2 <- coda.samples(model2, c("beta0", "beta1"), n.iter = n.iter)
+
+summary(samplesM2)
+```
+
+```{r}
+gelman.diag(samplesM2)
+model.samples.ggM2 <- ggs(samplesM2)
+```
+
+```{r}
+ggs_traceplot(model.samples.ggM2)
+```
+
+
+```{r}
+ggs_grb(model.samples.ggM2, version_rhat = "BG98")
+```
+
+En examinant les traceplots et les diagnostics de Gelman-Rubin, on peut conclure que les chaînes ont convergé vers leur loi stationnaire. Les traceplots montrent une fluctuation aléatoire autour d’une certaine valeur pour les deux paramètres, et les ratios de variance du diagnostic de Gelman-Rubin sont égaux à 1, ce qui suggère une bonne convergence.
+
+```{r}
+# Autocorrélations intra-chaînes
+ggs_autocorrelation(model.samples.ggM2)
+```
+
+On remarque que les autocorrélations sont toujours présentes.
+
+```{r}
+# Taille d'échantillon effective
+effectiveSize(samplesM2)
+```
+
+Les tailles d'échantillons respectives sont plus grandes pour les deux paramètres que pour le modèle M1. 
+
+Concernant les estimations, ce modèle nous fournis les estimations suivantes:
+
+```{r}
+summary(samplesM2)
+```
+
+### Question 14
+
+#### Comparer les modèles $M_1$ et $M_2$ à l’aide d’un critère bayésien de sélection de modèle. L’ajout d’un effet aléatoire de surdispersion vous semble-t-il pertinent ? Expliquer pourquoi.
+
+Le critère DIC est un critère bayésien de sélection de modèles. On peut l’interpréter comme une version bayésienne du critère AIC (Akaike Information Criterion). Le modèle avec le plus petit DIC est le modèle qui s’ajuste le mieux aux données disponibles.
+
+```{r}
+dic.samples(model2, n.iter = n.iter)
+```
+
+```{r}
+dic.samples(M2, n.iter = n.iter)
+```
+
+On observe que le modèle $M_2$ possède le plus petit critère de DIC. 
+
+### Question 15
+
+#### Dans cette question, on propose d’étudier les capacités prédictives du modèle $M_2$ et de les comparer à celle du modèle $M_1$.
+
+##### - Prédire, avec une approche bayésienne et en considérant le modèle $M_2$, le nombre de cas de cancer du poumon dans chaque quartier $i={1,...,44}$ en fonction de la précarité socio-économique. Pour cela, utiliser, comme pour le modèle $M_1$, une méthode de "Leave-One-Out Cross Validation".
+  
+##### - Représenter graphiquement le nombre médian prédit de cas de cancer du poumon ainsi qu’un intervalle d’incertitude à 95% pour chaque quartier $i$. Comparer avec les nombres observés de cas de cancer du poumon.
+  
+##### - Estimer le score prédictif moyen de Brier.
+  
+##### - Commenter vos résultats. En particulier, comparer les à ceux obtenus avec le modèle $M_1$.
+
+
+
+
+
+
+
+
+
+
+
+
+
