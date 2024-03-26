@@ -12,4 +12,4 @@ In this directory, you'll find all my projects in Data Science :
 - Time Series project
 
 3. **Personal work** :
-   - Iris data 
+- Iris data 
