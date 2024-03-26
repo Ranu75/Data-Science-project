@@ -10,3 +10,6 @@ In this directory, you'll find all my projects in Data Science :
 - Filter project
 - Bayesian statistics project
 - Time Series project
+
+3. **Personal work** :
+   - Iris data 
