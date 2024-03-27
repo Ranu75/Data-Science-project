@@ -37,4 +37,6 @@ def find_best_hyperparameter_logistic(X, y, nb_fold:int, metric:str, direction:s
     
     #### Créer un objet Optuna pour l'optimisation
     study = optuna.create_study(direction=direction)  # On cherche à maximiser la précision
+    
+    #### Retourne le modèle optimale
     return study
