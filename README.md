@@ -1,11 +1,11 @@
-# Ranujan's Portfolio
+# Data Science Project
 
 In this directory, you'll find all my projects in Data Science : 
 
-## Kaggle challenge (based on activities that we can find in the Kaggle website)
+## Predictions
 
-- Titanic from Disaster Machine Learning : forecast if people can survived or not
+## Anomaly detection
 
-## Personal work
+## Classification
 
-Work from python dataset such as Iris, Wine or Diabetes, etc...
+## Recommendation system
