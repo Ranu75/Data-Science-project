@@ -1,0 +1,1001 @@
+Age,Gender,Marital Status,Education Level,Employment Status,Credit Utilization Ratio,Payment History,Number of Credit Accounts,Loan Amount,Interest Rate,Loan Term,Type of Loan
+56,Male,Single,PhD,Unemployed,0.4,2483.9,1,2877543,6.38,36,Auto Loan
+69,Male,Married,Master,Unemployed,0.95,579.4,4,3380698,6.0,36,Personal Loan
+46,Male,Widowed,PhD,Employed,0.97,2455.1,5,2332018,6.98,12,Home Loan
+32,Female,Single,Bachelor,Self-Employed,0.39,1100.2,13,725003,8.06,24,Auto Loan
+60,Male,Widowed,High School,Employed,0.85,860.8,6,2285598,6.34,12,Home Loan
+25,Male,Married,PhD,Employed,0.77,789.3,5,4902571,2.59,60,Personal Loan
+38,Male,Single,PhD,Employed,0.31,568.1,1,4501260,3.2,36,Personal Loan
+56,Female,Divorced,PhD,Unemployed,0.23,1809.0,3,846002,7.4,48,Home Loan
+36,Female,Married,PhD,Unemployed,0.46,1045.6,1,1371621,2.97,12,Home Loan
+40,Male,Divorced,High School,Unemployed,0.78,2973.6,11,1180642,2.01,60,Home Loan
+28,Male,Widowed,High School,Self-Employed,0.96,1936.1,5,400508,6.42,36,Education Loan
+28,Male,Widowed,Bachelor,Employed,0.76,844.7,5,1779107,4.32,24,Education Loan
+41,Male,Married,High School,Self-Employed,0.86,2221.9,12,46160,7.94,36,Education Loan
+53,Female,Widowed,PhD,Unemployed,0.6,2744.4,11,29156,6.05,24,Education Loan
+57,Female,Divorced,Bachelor,Self-Employed,0.84,2362.9,13,2580348,2.13,24,Auto Loan
+41,Female,Single,Bachelor,Employed,0.78,691.1,6,2572688,8.13,12,Personal Loan
+20,Female,Single,Bachelor,Employed,0.38,2739.7,8,4664126,3.31,12,Home Loan
+39,Male,Single,PhD,Unemployed,0.55,2484.8,10,4161674,3.86,36,Personal Loan
+19,Male,Married,Master,Unemployed,0.8,895.8,12,1824630,4.32,60,Home Loan
+41,Male,Widowed,PhD,Self-Employed,0.05,629.5,1,4924005,1.86,36,Personal Loan
+61,Female,Divorced,High School,Unemployed,0.81,1893.3,4,891809,4.98,48,Auto Loan
+47,Male,Widowed,High School,Unemployed,0.18,890.1,10,4509311,2.36,24,Education Loan
+55,Female,Widowed,PhD,Employed,0.51,2586.5,11,747197,4.31,24,Personal Loan
+19,Female,Widowed,PhD,Unemployed,0.81,1395.8,1,3818282,3.95,12,Home Loan
+38,Male,Single,Bachelor,Unemployed,0.25,2782.2,9,655649,6.91,60,Personal Loan
+50,Male,Divorced,PhD,Employed,0.25,1914.2,11,222986,7.12,12,Auto Loan
+29,Male,Divorced,Bachelor,Employed,0.4,956.7,7,3353014,2.57,48,Auto Loan
+39,Female,Widowed,High School,Self-Employed,0.89,849.0,7,3648236,4.07,36,Personal Loan
+61,Male,Single,Bachelor,Unemployed,0.0,1941.2,12,39777,4.11,36,Education Loan
+42,Female,Single,PhD,Employed,0.9,2404.7,5,3412155,2.56,60,Home Loan
+66,Male,Divorced,High School,Self-Employed,0.15,2453.8,7,3837271,7.09,12,Auto Loan
+44,Female,Single,Master,Self-Employed,0.99,1189.4,12,4624965,6.45,12,Auto Loan
+59,Female,Single,Bachelor,Unemployed,0.95,1010.6,2,208110,2.83,48,Personal Loan
+45,Male,Single,High School,Unemployed,0.49,541.9,14,4089430,4.07,36,Auto Loan
+33,Female,Married,Bachelor,Self-Employed,0.51,2198.0,13,424627,2.24,12,Auto Loan
+32,Female,Widowed,High School,Employed,0.48,691.4,4,2813089,5.9,60,Home Loan
+64,Male,Divorced,High School,Self-Employed,0.64,1551.9,14,2385163,2.35,36,Education Loan
+68,Female,Divorced,Bachelor,Unemployed,0.09,2004.2,14,3742517,8.4,48,Home Loan
+61,Male,Married,Master,Employed,0.03,2842.8,7,3301066,6.96,60,Education Loan
+69,Female,Widowed,High School,Employed,0.06,1279.5,3,4894872,4.23,24,Home Loan
+20,Male,Divorced,High School,Self-Employed,0.44,1124.4,2,4763954,5.55,48,Personal Loan
+54,Male,Single,High School,Unemployed,0.28,2135.4,10,1227933,7.88,60,Auto Loan
+68,Female,Divorced,Master,Self-Employed,0.62,2048.1,2,1709547,5.38,12,Education Loan
+24,Female,Single,Master,Self-Employed,0.99,1330.3,13,2887597,2.72,24,Personal Loan
+38,Female,Married,PhD,Self-Employed,0.39,2820.3,1,4410131,4.15,48,Auto Loan
+26,Female,Single,Bachelor,Employed,0.57,2612.2,5,3119823,7.4,12,Auto Loan
+56,Female,Divorced,Master,Employed,0.42,1060.0,12,352424,6.01,24,Auto Loan
+35,Male,Divorced,Bachelor,Unemployed,0.85,1097.9,6,1471659,6.06,36,Home Loan
+21,Female,Divorced,PhD,Unemployed,0.9,1780.8,6,2950107,7.57,12,Personal Loan
+42,Male,Married,Bachelor,Self-Employed,0.88,2433.9,9,2060241,7.76,60,Personal Loan
+31,Male,Married,Master,Self-Employed,0.97,610.1,4,3031034,7.94,48,Auto Loan
+67,Female,Widowed,Bachelor,Self-Employed,0.03,2233.3,1,4944349,2.16,24,Education Loan
+26,Male,Divorced,Master,Unemployed,0.84,2120.6,6,1166245,5.31,12,Personal Loan
+43,Male,Single,Bachelor,Employed,0.75,1078.7,5,4936622,6.68,36,Home Loan
+19,Male,Married,Master,Employed,0.23,2203.4,10,168998,6.8,48,Education Loan
+37,Male,Divorced,Master,Self-Employed,0.96,2850.5,6,1686079,5.75,48,Education Loan
+45,Female,Divorced,Bachelor,Self-Employed,0.15,617.0,3,632995,2.67,12,Education Loan
+64,Male,Married,PhD,Self-Employed,0.68,1299.1,2,3772853,7.08,36,Education Loan
+24,Female,Widowed,High School,Self-Employed,0.22,1595.4,6,4060230,6.54,24,Personal Loan
+61,Female,Married,PhD,Unemployed,0.43,2748.2,13,2013011,2.1,12,Auto Loan
+25,Male,Married,Bachelor,Employed,0.72,2905.7,1,1286120,4.75,24,Education Loan
+64,Female,Single,PhD,Self-Employed,0.56,1610.3,7,4471918,2.72,48,Home Loan
+52,Female,Single,Master,Unemployed,0.43,2375.1,7,3383195,3.86,24,Home Loan
+31,Female,Widowed,High School,Self-Employed,0.33,1829.2,10,1818516,1.63,36,Auto Loan
+34,Male,Divorced,Bachelor,Self-Employed,0.84,1844.5,13,966011,4.3,60,Personal Loan
+53,Female,Married,Bachelor,Employed,0.14,1195.2,7,3667905,5.35,36,Auto Loan
+67,Female,Widowed,Bachelor,Self-Employed,0.43,1042.4,12,4035129,5.84,24,Education Loan
+57,Female,Single,High School,Employed,0.9,1220.0,11,3771509,6.14,12,Personal Loan
+21,Male,Married,Master,Employed,0.85,1890.8,10,802955,7.35,48,Personal Loan
+19,Female,Divorced,Bachelor,Employed,0.4,572.9,1,1276571,3.01,60,Education Loan
+23,Male,Single,PhD,Unemployed,0.76,2768.1,4,1771126,2.34,12,Home Loan
+59,Male,Single,Bachelor,Unemployed,0.82,890.7,13,4120993,7.46,12,Education Loan
+21,Male,Single,Bachelor,Employed,0.89,1050.2,7,303313,2.6,36,Auto Loan
+46,Male,Widowed,Bachelor,Self-Employed,0.54,1795.7,11,4358366,8.32,24,Education Loan
+35,Male,Divorced,Bachelor,Employed,0.2,2275.3,9,1612525,7.4,36,Home Loan
+43,Male,Married,Master,Self-Employed,0.26,739.3,5,1727355,5.01,24,Education Loan
+61,Female,Widowed,PhD,Employed,0.3,1294.2,13,3956617,8.37,36,Auto Loan
+51,Male,Widowed,Master,Self-Employed,0.59,2921.7,2,3493974,2.18,12,Auto Loan
+27,Female,Widowed,PhD,Unemployed,0.03,1155.9,7,3252792,3.62,48,Home Loan
+53,Female,Single,Bachelor,Self-Employed,0.64,1282.6,10,4910318,5.97,24,Auto Loan
+31,Male,Divorced,High School,Employed,0.36,2591.2,1,1457922,3.95,60,Auto Loan
+48,Female,Widowed,Master,Unemployed,0.3,625.5,7,143114,8.0,60,Education Loan
+65,Female,Married,High School,Self-Employed,0.88,1661.5,6,2963718,1.96,12,Personal Loan
+32,Female,Divorced,Master,Self-Employed,0.46,1449.0,7,4695942,5.35,36,Auto Loan
+25,Female,Married,Bachelor,Self-Employed,0.1,1291.5,14,1897717,5.64,36,Auto Loan
+31,Male,Divorced,Master,Self-Employed,0.83,1214.2,13,694076,6.07,12,Home Loan
+40,Female,Married,Bachelor,Self-Employed,0.05,728.4,10,3978178,3.29,60,Home Loan
+57,Male,Single,Master,Unemployed,0.73,1287.1,3,149133,4.05,60,Education Loan
+38,Female,Widowed,Bachelor,Unemployed,0.77,607.6,3,3819697,7.41,36,Education Loan
+33,Female,Married,Bachelor,Unemployed,0.35,2452.4,7,4549469,2.86,24,Auto Loan
+62,Male,Divorced,PhD,Unemployed,0.82,1495.6,13,1472597,7.29,48,Personal Loan
+35,Female,Widowed,Bachelor,Employed,0.52,1609.8,2,280001,5.44,24,Personal Loan
+64,Female,Widowed,PhD,Unemployed,0.46,2734.0,1,4627631,6.84,60,Education Loan
+41,Female,Divorced,Bachelor,Self-Employed,0.05,2145.1,9,3407570,6.5,24,Home Loan
+43,Male,Married,High School,Self-Employed,0.29,520.1,9,1409298,2.95,48,Auto Loan
+42,Female,Single,Bachelor,Unemployed,0.93,2857.9,7,4157413,5.48,24,Auto Loan
+62,Male,Single,High School,Self-Employed,0.39,1092.9,7,792409,7.57,24,Personal Loan
+58,Female,Married,High School,Unemployed,0.55,769.0,3,1727826,4.52,24,Education Loan
+46,Male,Widowed,Bachelor,Self-Employed,0.53,2420.3,10,2451724,8.27,24,Personal Loan
+32,Male,Widowed,High School,Employed,0.59,1751.2,2,4854636,4.67,12,Personal Loan
+62,Female,Widowed,PhD,Employed,0.06,1584.4,11,723391,2.5,60,Education Loan
+18,Female,Widowed,Master,Unemployed,0.36,1123.8,7,4709654,4.23,48,Home Loan
+42,Male,Married,Bachelor,Unemployed,0.72,1868.7,9,347164,8.16,60,Auto Loan
+24,Male,Widowed,High School,Unemployed,0.2,1186.0,1,3184209,3.74,12,Home Loan
+26,Female,Divorced,Bachelor,Self-Employed,0.2,2754.0,13,2773779,7.58,12,Education Loan
+41,Male,Widowed,PhD,Unemployed,0.01,1038.0,14,2868214,7.67,12,Education Loan
+18,Female,Single,Bachelor,Employed,0.44,2710.9,4,2244967,3.95,12,Auto Loan
+61,Female,Widowed,Bachelor,Self-Employed,0.88,1898.5,6,2030880,2.08,24,Home Loan
+25,Female,Married,High School,Unemployed,0.05,2571.2,7,2811285,6.57,60,Auto Loan
+41,Female,Single,PhD,Self-Employed,0.19,2282.1,10,2426338,3.68,36,Personal Loan
+28,Male,Married,Master,Self-Employed,0.31,2241.7,7,4253780,6.98,48,Personal Loan
+68,Female,Married,Master,Unemployed,0.73,1310.9,10,3903193,4.6,12,Personal Loan
+34,Male,Single,High School,Self-Employed,0.64,1084.7,2,2827754,4.9,60,Home Loan
+25,Female,Married,Bachelor,Employed,0.42,1027.2,14,2791460,6.95,12,Personal Loan
+52,Male,Married,High School,Employed,0.76,2643.0,4,1265959,4.18,12,Auto Loan
+52,Female,Widowed,High School,Self-Employed,0.61,2551.1,5,4273397,4.6,12,Home Loan
+50,Male,Divorced,High School,Unemployed,0.9,1601.4,14,2123687,4.13,12,Auto Loan
+22,Male,Married,Bachelor,Self-Employed,0.82,831.0,12,1629426,4.07,12,Education Loan
+59,Female,Married,PhD,Employed,0.25,1455.6,1,4460627,5.18,48,Home Loan
+56,Female,Married,High School,Self-Employed,0.27,2048.4,1,2366068,7.16,60,Auto Loan
+58,Female,Widowed,Bachelor,Self-Employed,0.13,1636.0,10,2148421,4.03,12,Auto Loan
+45,Female,Divorced,PhD,Employed,0.34,2450.5,3,930631,5.17,12,Home Loan
+24,Male,Single,High School,Self-Employed,1.0,2994.1,10,295291,6.2,12,Education Loan
+26,Female,Widowed,Master,Self-Employed,0.41,977.8,3,2545896,3.39,12,Home Loan
+25,Male,Widowed,PhD,Unemployed,0.22,1649.1,12,1659959,3.44,24,Personal Loan
+29,Male,Divorced,High School,Unemployed,0.76,1577.5,8,3880019,8.03,24,Personal Loan
+51,Female,Divorced,PhD,Employed,0.54,1261.2,9,2198077,6.56,36,Education Loan
+50,Male,Widowed,PhD,Employed,0.15,995.2,14,4794973,5.54,12,Auto Loan
+65,Male,Single,PhD,Employed,0.38,664.2,11,3779484,6.03,36,Auto Loan
+40,Male,Widowed,PhD,Unemployed,0.41,2717.8,12,1300906,1.71,48,Auto Loan
+41,Male,Divorced,PhD,Employed,0.75,1549.6,1,1445367,5.83,36,Home Loan
+54,Female,Single,PhD,Employed,0.02,1742.2,14,1550450,5.07,60,Home Loan
+52,Female,Divorced,High School,Employed,0.27,2792.4,11,3731040,5.32,24,Education Loan
+61,Female,Single,Master,Unemployed,0.52,2440.7,2,1699576,4.02,24,Personal Loan
+57,Female,Married,Bachelor,Self-Employed,0.27,826.3,10,3256849,2.07,12,Auto Loan
+39,Male,Divorced,PhD,Employed,0.63,1913.5,2,275976,2.85,12,Personal Loan
+44,Male,Divorced,Bachelor,Self-Employed,0.48,1605.6,4,1615196,8.16,48,Home Loan
+52,Female,Widowed,High School,Employed,0.36,2493.0,2,4216771,4.36,48,Home Loan
+18,Female,Divorced,PhD,Self-Employed,0.95,2310.6,7,1055851,4.77,60,Home Loan
+52,Female,Divorced,Master,Unemployed,0.63,2226.0,13,87994,1.87,12,Personal Loan
+54,Male,Married,Bachelor,Unemployed,0.13,1351.4,9,4298506,1.76,12,Education Loan
+64,Female,Divorced,PhD,Employed,0.56,2512.4,7,2674921,6.52,48,Education Loan
+31,Female,Married,High School,Self-Employed,0.78,631.0,12,3551525,5.27,48,Home Loan
+20,Female,Married,Master,Unemployed,0.71,899.1,6,1444730,5.06,48,Auto Loan
+18,Male,Married,Bachelor,Employed,0.17,1339.1,10,4649158,3.2,24,Personal Loan
+22,Male,Married,Bachelor,Employed,0.97,692.0,1,3803730,6.71,36,Home Loan
+43,Male,Single,PhD,Unemployed,0.45,1087.5,11,4081650,2.68,36,Personal Loan
+31,Male,Widowed,Master,Unemployed,0.16,2575.4,10,4364489,2.83,12,Personal Loan
+56,Male,Single,Master,Employed,0.18,2870.6,9,1968615,4.72,24,Education Loan
+44,Male,Divorced,Master,Self-Employed,0.1,1261.5,5,988534,3.5,48,Home Loan
+26,Male,Single,Master,Self-Employed,0.8,1161.3,11,4478262,3.23,12,Education Loan
+32,Male,Single,High School,Self-Employed,0.12,1199.7,5,2379320,6.02,24,Home Loan
+32,Female,Divorced,Master,Employed,0.13,1194.3,6,3874376,6.06,60,Personal Loan
+43,Female,Divorced,Bachelor,Unemployed,0.85,589.8,9,905668,7.27,24,Education Loan
+59,Male,Divorced,Bachelor,Employed,0.34,2817.3,13,2689276,4.42,12,Personal Loan
+30,Male,Single,High School,Unemployed,0.03,1034.2,8,1328155,2.01,36,Home Loan
+68,Female,Single,Bachelor,Self-Employed,0.05,1550.0,8,994588,3.42,48,Auto Loan
+49,Male,Divorced,Bachelor,Self-Employed,0.14,524.2,14,4459399,8.36,60,Education Loan
+56,Male,Widowed,Master,Unemployed,0.21,2644.9,8,4012761,5.67,24,Education Loan
+66,Male,Widowed,Bachelor,Unemployed,0.67,2327.9,1,491632,6.47,12,Personal Loan
+69,Female,Married,High School,Employed,0.16,2866.9,1,1319752,1.55,12,Personal Loan
+49,Female,Divorced,Master,Self-Employed,0.12,2454.0,8,4041103,5.13,48,Auto Loan
+21,Female,Married,PhD,Employed,0.76,1284.3,5,539954,1.76,12,Education Loan
+47,Female,Widowed,Master,Employed,0.67,1119.7,9,4060807,5.48,12,Home Loan
+54,Female,Married,High School,Employed,0.44,2244.3,2,3023337,7.95,48,Home Loan
+40,Male,Divorced,Master,Self-Employed,0.55,1410.3,9,1421910,8.28,60,Education Loan
+56,Female,Divorced,Master,Employed,0.31,1915.5,12,1421188,5.28,36,Education Loan
+62,Male,Divorced,High School,Employed,0.48,515.6,14,4071367,4.71,36,Education Loan
+32,Male,Single,Master,Employed,0.51,654.7,8,36505,8.12,24,Auto Loan
+60,Female,Married,High School,Employed,0.39,1838.4,9,3716729,6.22,60,Home Loan
+46,Female,Widowed,High School,Employed,0.91,1915.2,4,1660375,1.95,24,Home Loan
+53,Male,Widowed,PhD,Employed,0.02,2378.6,1,1885530,4.76,36,Personal Loan
+30,Male,Widowed,Bachelor,Self-Employed,0.78,829.9,1,222204,3.18,48,Personal Loan
+49,Male,Single,Bachelor,Employed,0.12,1783.0,5,538168,4.79,12,Education Loan
+24,Female,Single,Master,Unemployed,0.8,986.1,2,983215,4.69,36,Personal Loan
+68,Female,Divorced,Master,Employed,0.62,733.0,14,577827,5.58,60,Auto Loan
+39,Female,Widowed,PhD,Employed,0.84,1526.2,8,2347208,4.0,36,Home Loan
+45,Female,Single,PhD,Self-Employed,0.1,908.3,10,1277633,2.65,60,Home Loan
+19,Female,Divorced,PhD,Self-Employed,0.56,1054.5,11,3694815,5.03,60,Personal Loan
+59,Male,Widowed,High School,Unemployed,0.5,1293.9,5,4712104,7.31,60,Education Loan
+62,Female,Married,PhD,Unemployed,0.71,1148.5,5,2036182,6.15,24,Personal Loan
+23,Male,Divorced,PhD,Self-Employed,0.53,719.0,2,4648246,3.87,48,Education Loan
+45,Male,Single,Master,Self-Employed,0.54,724.8,7,58784,8.05,36,Auto Loan
+45,Male,Single,PhD,Employed,0.43,983.1,13,2220186,7.89,48,Home Loan
+61,Female,Divorced,High School,Self-Employed,0.31,626.4,8,2541196,2.97,12,Auto Loan
+61,Female,Divorced,High School,Unemployed,0.48,2066.1,10,3210090,1.78,36,Home Loan
+37,Female,Single,Master,Employed,0.12,1218.3,13,63997,6.69,48,Auto Loan
+47,Male,Married,PhD,Unemployed,0.96,1199.4,1,2100053,7.29,48,Personal Loan
+28,Male,Widowed,PhD,Employed,0.71,1330.0,2,4385717,8.28,12,Auto Loan
+45,Male,Married,High School,Self-Employed,0.95,2157.0,10,810981,7.73,60,Auto Loan
+42,Male,Divorced,PhD,Unemployed,0.23,2676.6,4,2950504,5.7,36,Personal Loan
+56,Male,Married,PhD,Employed,0.88,2397.7,5,4944990,5.21,36,Home Loan
+50,Male,Single,PhD,Employed,0.81,2318.8,13,1472108,1.69,12,Home Loan
+18,Female,Divorced,Bachelor,Self-Employed,0.68,1711.0,2,4753216,3.23,60,Personal Loan
+44,Female,Widowed,Master,Self-Employed,0.63,2234.5,1,580993,4.72,36,Auto Loan
+69,Female,Single,Bachelor,Self-Employed,0.32,1881.9,9,1260469,5.9,36,Auto Loan
+30,Female,Single,Master,Unemployed,0.82,1040.6,14,4087348,5.4,36,Auto Loan
+58,Male,Widowed,High School,Employed,0.5,1021.5,1,4904450,6.7,60,Education Loan
+20,Male,Widowed,PhD,Self-Employed,0.07,1241.0,13,2183577,3.46,12,Home Loan
+56,Female,Married,Master,Unemployed,0.31,2777.0,4,2603449,5.45,36,Auto Loan
+23,Male,Divorced,Bachelor,Unemployed,0.94,1868.5,2,1598858,2.12,48,Home Loan
+25,Female,Widowed,PhD,Unemployed,0.85,2334.8,11,1028543,4.4,60,Auto Loan
+44,Female,Widowed,High School,Self-Employed,0.98,1366.4,4,4316219,6.75,24,Personal Loan
+26,Female,Divorced,Master,Self-Employed,0.63,1519.3,8,395105,6.35,12,Personal Loan
+54,Male,Widowed,Master,Employed,0.25,813.9,8,3435077,8.43,48,Home Loan
+50,Female,Widowed,Master,Employed,0.16,928.2,11,4523125,3.45,36,Home Loan
+68,Female,Married,PhD,Self-Employed,0.19,2568.4,12,4237234,4.99,24,Personal Loan
+59,Female,Single,Bachelor,Unemployed,0.02,1962.1,9,1131889,3.81,12,Education Loan
+61,Male,Single,Bachelor,Unemployed,0.39,1343.8,13,759211,4.58,60,Personal Loan
+41,Male,Single,Master,Unemployed,0.19,2507.1,11,3268881,7.5,24,Auto Loan
+32,Female,Single,High School,Employed,0.41,1116.3,12,3641453,6.29,24,Education Loan
+49,Male,Widowed,High School,Unemployed,0.93,2940.1,5,3960476,7.68,48,Personal Loan
+49,Male,Divorced,Bachelor,Employed,0.43,1362.0,7,2003384,2.92,12,Education Loan
+41,Male,Divorced,High School,Employed,0.88,1343.3,3,2195028,7.61,48,Education Loan
+58,Male,Married,Bachelor,Unemployed,0.61,1279.8,10,4813958,1.92,48,Education Loan
+69,Male,Married,Master,Unemployed,0.25,805.3,4,547691,7.72,36,Home Loan
+66,Male,Widowed,Bachelor,Self-Employed,0.36,777.8,10,3497924,3.8,60,Personal Loan
+66,Male,Divorced,Bachelor,Self-Employed,0.08,2120.3,9,782838,3.7,24,Home Loan
+69,Male,Divorced,Master,Unemployed,0.33,2687.8,10,271420,5.08,12,Home Loan
+29,Male,Single,High School,Employed,0.68,2476.3,10,487843,8.08,60,Auto Loan
+56,Male,Widowed,Bachelor,Employed,0.07,852.8,14,4539943,1.83,60,Auto Loan
+19,Female,Widowed,Bachelor,Employed,0.21,1864.0,12,2270156,3.97,12,Education Loan
+20,Female,Single,Master,Employed,0.38,764.0,1,4562538,7.5,60,Education Loan
+66,Male,Widowed,High School,Employed,0.98,613.2,2,4600905,4.27,36,Auto Loan
+54,Female,Widowed,Bachelor,Self-Employed,0.78,2141.0,5,1835260,2.89,60,Auto Loan
+66,Female,Married,Master,Unemployed,0.73,1837.9,3,2075306,4.47,36,Personal Loan
+34,Male,Divorced,Bachelor,Self-Employed,0.12,705.1,2,4785833,4.2,24,Education Loan
+66,Male,Widowed,PhD,Employed,0.78,587.3,1,3857593,7.91,24,Education Loan
+19,Male,Married,Master,Employed,0.79,2974.4,10,4197694,6.83,48,Auto Loan
+19,Female,Divorced,High School,Employed,0.6,575.1,3,1222980,5.04,36,Personal Loan
+45,Female,Single,High School,Employed,0.99,1611.3,1,3109834,8.42,24,Auto Loan
+40,Male,Married,High School,Unemployed,0.33,1761.5,12,1265973,4.76,60,Auto Loan
+54,Male,Married,High School,Employed,0.94,793.2,1,3574507,1.91,12,Home Loan
+49,Male,Divorced,Bachelor,Unemployed,0.91,922.7,12,4309489,3.34,12,Education Loan
+50,Female,Single,Bachelor,Employed,0.01,1379.5,1,3192132,4.55,36,Personal Loan
+18,Female,Married,High School,Unemployed,0.45,2404.2,8,4259486,2.6,48,Home Loan
+36,Female,Widowed,High School,Self-Employed,0.98,1767.7,3,3450863,8.13,60,Education Loan
+19,Female,Widowed,High School,Employed,0.1,2094.8,11,4907327,6.87,36,Auto Loan
+61,Male,Widowed,Bachelor,Unemployed,0.55,2962.9,1,3048783,3.38,12,Personal Loan
+43,Male,Single,High School,Self-Employed,0.98,2420.0,7,3381189,5.64,36,Education Loan
+49,Male,Married,High School,Employed,0.56,1585.9,10,1882508,6.55,60,Auto Loan
+23,Male,Widowed,PhD,Employed,0.19,1616.1,3,2927369,8.09,24,Home Loan
+49,Female,Single,PhD,Employed,0.58,2046.9,8,4812738,7.67,60,Personal Loan
+21,Female,Widowed,High School,Unemployed,0.2,2163.4,4,4776589,5.11,24,Education Loan
+28,Male,Divorced,Master,Unemployed,0.52,1751.8,4,154375,6.92,24,Home Loan
+34,Male,Married,High School,Self-Employed,0.07,2112.2,5,4239491,5.44,24,Auto Loan
+55,Female,Married,PhD,Unemployed,0.61,558.8,6,667253,5.37,36,Auto Loan
+41,Male,Single,Master,Unemployed,0.52,1574.1,7,3193818,2.3,12,Education Loan
+22,Female,Single,Master,Employed,0.74,1197.3,14,3089578,2.38,36,Auto Loan
+69,Male,Married,High School,Employed,0.63,822.9,14,1528560,5.21,12,Personal Loan
+51,Male,Widowed,PhD,Employed,0.55,748.9,4,1904420,3.38,60,Education Loan
+23,Male,Widowed,PhD,Employed,0.69,2008.0,8,551797,1.65,48,Home Loan
+39,Male,Divorced,Master,Employed,0.14,1809.0,13,4272957,6.56,60,Education Loan
+28,Male,Widowed,High School,Employed,0.6,1134.0,6,702289,1.73,36,Education Loan
+65,Male,Single,Bachelor,Employed,0.17,1677.4,14,3547498,5.67,36,Home Loan
+33,Male,Single,Bachelor,Self-Employed,0.93,1730.6,1,1806218,5.27,12,Auto Loan
+50,Female,Widowed,PhD,Self-Employed,0.07,987.5,1,3694032,8.28,36,Home Loan
+26,Female,Single,Bachelor,Self-Employed,0.43,2130.2,9,2394318,4.89,24,Personal Loan
+23,Female,Married,PhD,Self-Employed,0.7,2452.3,10,562226,1.95,36,Auto Loan
+33,Female,Married,PhD,Employed,0.46,2478.7,6,270710,5.36,12,Education Loan
+46,Female,Widowed,PhD,Self-Employed,0.09,2006.2,10,1290896,7.39,12,Auto Loan
+20,Male,Married,Bachelor,Employed,0.55,1779.1,8,2050403,8.48,24,Auto Loan
+37,Male,Married,PhD,Self-Employed,0.64,652.5,13,3813074,4.51,12,Personal Loan
+53,Female,Divorced,Master,Unemployed,0.7,1219.6,7,4156226,3.74,48,Auto Loan
+36,Male,Divorced,High School,Self-Employed,0.37,733.2,12,948193,7.85,60,Auto Loan
+43,Female,Married,High School,Self-Employed,0.56,2909.6,6,1415419,2.84,36,Auto Loan
+20,Female,Widowed,PhD,Employed,0.45,837.7,4,3872012,5.81,48,Education Loan
+36,Male,Divorced,High School,Self-Employed,0.67,879.4,7,1553103,4.34,36,Auto Loan
+37,Male,Single,Bachelor,Unemployed,0.58,2723.9,9,3517145,1.79,48,Home Loan
+49,Male,Single,Bachelor,Employed,0.53,2859.8,14,1788244,3.93,36,Auto Loan
+24,Female,Single,High School,Employed,0.25,2414.6,11,3912216,3.36,24,Personal Loan
+69,Male,Widowed,Bachelor,Self-Employed,0.0,513.5,10,4792337,6.3,12,Auto Loan
+58,Female,Married,High School,Employed,0.17,503.4,10,3151537,8.14,12,Auto Loan
+50,Female,Single,High School,Employed,0.12,1445.3,14,1190859,3.38,24,Education Loan
+57,Female,Widowed,High School,Employed,0.45,858.5,7,4597749,7.18,48,Home Loan
+56,Male,Divorced,PhD,Employed,0.61,546.0,1,3536844,1.89,60,Auto Loan
+35,Male,Married,High School,Employed,0.21,1660.2,10,1990425,5.27,48,Home Loan
+57,Female,Divorced,PhD,Employed,0.94,2857.7,9,4760411,1.99,12,Personal Loan
+18,Male,Widowed,High School,Unemployed,0.01,1309.5,13,1471742,8.04,60,Education Loan
+28,Male,Single,High School,Self-Employed,0.77,2152.9,4,2951616,6.86,36,Home Loan
+45,Male,Single,High School,Unemployed,0.63,2130.6,3,2484370,6.11,60,Education Loan
+42,Female,Widowed,Bachelor,Employed,0.37,1127.7,4,2088937,7.27,48,Auto Loan
+67,Female,Single,PhD,Employed,0.05,2126.1,4,3751372,6.03,24,Personal Loan
+40,Male,Married,PhD,Self-Employed,0.63,1030.8,13,537340,8.28,36,Education Loan
+48,Female,Widowed,High School,Unemployed,0.39,805.0,10,1365097,6.5,48,Auto Loan
+47,Male,Divorced,High School,Self-Employed,0.94,2253.5,11,2065397,7.97,36,Home Loan
+59,Male,Widowed,Bachelor,Unemployed,0.54,783.6,2,1257486,5.12,60,Personal Loan
+52,Male,Married,Bachelor,Employed,0.94,2992.3,14,2437115,2.32,12,Personal Loan
+24,Male,Married,Bachelor,Self-Employed,0.22,958.6,12,1958697,5.2,48,Home Loan
+33,Female,Widowed,PhD,Self-Employed,0.73,1985.4,14,1089037,2.39,24,Home Loan
+43,Female,Widowed,PhD,Employed,0.62,1528.4,1,3962910,5.65,60,Personal Loan
+65,Female,Single,PhD,Self-Employed,0.74,816.0,12,4161951,4.88,48,Education Loan
+69,Male,Married,High School,Unemployed,0.21,569.6,10,3165200,5.86,24,Personal Loan
+66,Male,Widowed,PhD,Unemployed,0.66,2056.8,12,865695,1.57,48,Home Loan
+19,Male,Widowed,Master,Unemployed,0.5,2516.9,1,122036,2.86,60,Education Loan
+18,Female,Married,Master,Unemployed,0.74,2605.0,13,4392978,4.94,48,Auto Loan
+65,Male,Widowed,Bachelor,Employed,0.33,1706.8,14,2394819,8.15,36,Personal Loan
+29,Female,Single,PhD,Self-Employed,0.89,2443.6,8,3841854,4.19,60,Home Loan
+22,Female,Married,Master,Unemployed,0.08,2182.1,14,899694,4.47,48,Auto Loan
+54,Female,Single,Bachelor,Employed,0.81,2310.6,2,600348,6.5,12,Personal Loan
+49,Female,Single,PhD,Self-Employed,0.86,1731.5,12,2770911,5.73,48,Personal Loan
+26,Female,Single,High School,Self-Employed,0.82,2083.5,10,1381446,3.59,36,Education Loan
+58,Female,Single,Master,Employed,0.51,2513.8,5,3434404,4.38,24,Home Loan
+52,Male,Married,High School,Employed,0.44,1494.7,12,919121,3.02,24,Auto Loan
+36,Male,Single,PhD,Unemployed,1.0,2514.9,4,3631301,8.26,24,Personal Loan
+65,Female,Single,Master,Self-Employed,0.23,1980.0,8,2150314,2.41,12,Education Loan
+33,Female,Widowed,PhD,Self-Employed,0.55,914.8,2,4076981,4.1,36,Auto Loan
+20,Male,Married,High School,Employed,0.67,561.7,10,4477801,1.68,60,Auto Loan
+37,Female,Married,Master,Self-Employed,0.7,1406.9,9,2219465,3.05,24,Personal Loan
+41,Female,Divorced,High School,Unemployed,0.2,1866.7,7,2135629,6.96,36,Auto Loan
+50,Male,Married,PhD,Self-Employed,0.65,2599.6,13,2193525,2.91,48,Personal Loan
+41,Female,Married,PhD,Employed,0.82,818.7,7,4084669,2.06,12,Education Loan
+69,Female,Divorced,High School,Employed,0.05,2500.5,1,703464,4.82,36,Education Loan
+28,Female,Married,Master,Unemployed,0.91,2657.5,14,728730,1.57,36,Auto Loan
+66,Male,Married,High School,Unemployed,0.03,876.7,12,1587415,2.09,60,Personal Loan
+25,Male,Married,PhD,Self-Employed,0.36,2629.0,2,4272663,7.15,36,Home Loan
+53,Male,Married,High School,Self-Employed,0.02,2978.6,4,3603824,6.9,60,Education Loan
+55,Female,Divorced,PhD,Employed,0.08,2317.1,4,4678223,7.91,12,Personal Loan
+57,Female,Married,High School,Unemployed,0.91,2461.9,11,1368356,7.48,12,Personal Loan
+37,Male,Married,Master,Unemployed,0.35,2986.0,14,1525719,6.28,48,Personal Loan
+52,Female,Divorced,Master,Unemployed,0.42,2013.7,3,4151426,1.87,60,Auto Loan
+65,Female,Widowed,High School,Self-Employed,0.22,1269.7,7,826117,6.98,60,Home Loan
+42,Female,Single,High School,Unemployed,0.6,2593.8,12,847566,7.42,24,Auto Loan
+52,Female,Widowed,Master,Employed,0.59,2036.2,8,1166543,7.09,24,Education Loan
+42,Female,Divorced,PhD,Employed,0.37,1953.0,2,104455,5.06,48,Auto Loan
+46,Male,Single,Master,Self-Employed,0.33,1134.1,4,1519639,3.13,12,Personal Loan
+35,Female,Divorced,PhD,Self-Employed,0.88,2390.8,14,1233981,7.42,24,Auto Loan
+63,Male,Divorced,High School,Unemployed,0.38,704.2,3,2346798,6.59,36,Personal Loan
+35,Female,Married,High School,Self-Employed,0.49,2810.7,2,4394241,8.37,12,Home Loan
+19,Male,Single,PhD,Employed,0.28,1314.6,12,2579464,2.59,36,Auto Loan
+52,Female,Married,High School,Unemployed,0.79,819.4,13,2168344,3.08,60,Auto Loan
+33,Male,Single,PhD,Employed,0.4,1605.9,14,845165,2.98,12,Auto Loan
+58,Female,Divorced,Bachelor,Unemployed,0.51,606.2,6,3390889,7.05,48,Personal Loan
+53,Male,Divorced,Master,Self-Employed,0.25,2211.6,13,1744428,2.81,60,Personal Loan
+50,Female,Widowed,Bachelor,Unemployed,0.99,2756.8,4,3832069,1.97,60,Auto Loan
+21,Male,Single,PhD,Unemployed,0.29,2593.2,6,4490591,8.49,36,Auto Loan
+50,Female,Married,Master,Employed,0.77,818.4,2,2053683,1.67,60,Home Loan
+31,Male,Widowed,PhD,Employed,0.43,815.7,12,3154787,7.35,24,Home Loan
+38,Male,Widowed,Master,Unemployed,0.21,2533.6,4,2822789,4.06,12,Education Loan
+65,Female,Widowed,Master,Self-Employed,0.8,2810.6,11,3262772,7.39,24,Home Loan
+37,Female,Married,Master,Self-Employed,0.33,1651.7,6,1563749,5.38,36,Home Loan
+25,Male,Widowed,Master,Employed,0.87,1747.4,14,2288214,7.81,36,Home Loan
+24,Female,Married,PhD,Self-Employed,0.92,1295.7,5,466104,7.98,12,Personal Loan
+20,Male,Widowed,Master,Employed,0.86,2735.7,3,2176503,1.56,60,Home Loan
+34,Male,Married,Master,Self-Employed,0.04,2112.3,8,244085,2.03,48,Home Loan
+50,Male,Divorced,Bachelor,Unemployed,0.79,1220.6,7,768171,3.25,36,Auto Loan
+65,Female,Divorced,High School,Employed,0.41,1247.0,3,508095,6.19,12,Personal Loan
+29,Male,Divorced,High School,Employed,0.87,2728.0,6,2177461,7.72,48,Education Loan
+68,Male,Divorced,Bachelor,Unemployed,0.64,534.1,4,4890397,4.72,60,Education Loan
+39,Female,Divorced,Bachelor,Employed,0.83,1306.8,11,1177732,5.75,36,Home Loan
+39,Female,Widowed,PhD,Self-Employed,0.5,1885.9,5,2445296,2.82,12,Education Loan
+63,Female,Widowed,PhD,Self-Employed,0.54,870.5,11,1500424,7.13,12,Education Loan
+47,Female,Widowed,PhD,Employed,0.14,730.2,5,31576,8.27,12,Education Loan
+55,Male,Married,Bachelor,Self-Employed,0.78,2538.2,7,3683336,3.38,36,Home Loan
+55,Male,Married,Bachelor,Employed,0.42,2736.0,11,2773262,4.96,48,Education Loan
+62,Male,Married,Master,Unemployed,0.5,2559.0,5,2734442,2.1,12,Home Loan
+68,Male,Married,PhD,Employed,0.79,2747.0,11,3340263,5.41,60,Auto Loan
+25,Female,Divorced,PhD,Unemployed,0.6,1882.8,3,3675842,5.02,12,Auto Loan
+44,Male,Divorced,PhD,Self-Employed,0.2,2530.6,10,2747968,2.51,48,Education Loan
+44,Male,Divorced,High School,Unemployed,0.59,1460.1,5,2801338,4.59,36,Auto Loan
+51,Female,Single,Master,Self-Employed,0.41,2165.7,7,2196203,3.84,12,Home Loan
+38,Male,Widowed,PhD,Employed,0.47,2972.1,5,2921451,5.15,12,Auto Loan
+47,Male,Married,PhD,Self-Employed,0.03,1064.3,5,3347031,5.6,60,Education Loan
+50,Male,Married,PhD,Employed,0.21,1474.7,9,2310457,1.56,60,Home Loan
+45,Male,Divorced,High School,Employed,0.28,1700.1,3,3462550,6.83,12,Personal Loan
+64,Male,Married,High School,Unemployed,0.71,845.0,13,3955123,6.49,12,Home Loan
+50,Male,Married,Bachelor,Unemployed,0.01,702.6,6,2564728,4.06,60,Auto Loan
+22,Female,Widowed,Master,Unemployed,0.41,2574.3,1,4778026,1.87,48,Personal Loan
+65,Female,Divorced,Bachelor,Unemployed,0.92,2942.0,10,2173769,6.78,24,Home Loan
+36,Male,Widowed,Master,Self-Employed,0.11,1511.8,5,4093501,8.19,24,Personal Loan
+21,Male,Single,High School,Self-Employed,0.52,719.1,8,4846161,3.18,12,Personal Loan
+52,Female,Single,PhD,Self-Employed,0.79,664.5,5,1790248,3.76,60,Personal Loan
+66,Male,Single,Bachelor,Employed,0.94,2728.3,9,2618026,2.79,36,Home Loan
+34,Male,Divorced,PhD,Self-Employed,0.75,1659.5,11,4805817,5.54,36,Auto Loan
+61,Male,Married,Bachelor,Self-Employed,0.72,1300.1,6,2190019,2.58,24,Home Loan
+45,Female,Divorced,High School,Self-Employed,0.83,1691.2,8,789957,3.99,48,Auto Loan
+47,Male,Divorced,High School,Unemployed,0.45,1295.8,10,1923980,6.38,24,Home Loan
+46,Female,Married,High School,Self-Employed,0.81,1722.6,8,1517394,5.42,12,Home Loan
+63,Male,Widowed,Bachelor,Employed,0.01,2648.9,13,2989845,4.21,48,Home Loan
+23,Female,Single,Master,Unemployed,0.92,1980.8,3,2722188,4.44,36,Auto Loan
+52,Female,Widowed,Bachelor,Employed,0.44,2236.6,7,264265,5.43,60,Home Loan
+58,Male,Single,Master,Self-Employed,0.55,1411.7,14,4723797,1.54,60,Personal Loan
+54,Female,Divorced,Bachelor,Unemployed,0.25,2346.3,7,920913,2.05,12,Home Loan
+41,Male,Single,Bachelor,Employed,0.74,2166.5,14,2067017,7.67,24,Personal Loan
+46,Female,Divorced,High School,Self-Employed,0.08,798.9,10,663817,2.05,12,Education Loan
+66,Male,Widowed,PhD,Employed,0.87,1931.6,12,1006433,6.45,60,Education Loan
+63,Male,Divorced,PhD,Employed,0.83,1141.9,6,2045286,7.94,36,Auto Loan
+48,Female,Widowed,Master,Employed,0.22,2510.2,12,2591505,3.39,60,Auto Loan
+52,Male,Married,PhD,Self-Employed,0.81,1564.8,7,4118949,4.09,48,Education Loan
+50,Male,Married,Bachelor,Self-Employed,0.79,2986.7,14,4886691,5.48,60,Home Loan
+69,Female,Married,Bachelor,Employed,0.63,731.3,2,4684071,7.67,60,Home Loan
+38,Male,Divorced,High School,Unemployed,0.37,2450.9,9,4213887,8.09,48,Home Loan
+49,Male,Married,High School,Unemployed,0.27,2184.3,10,4778979,6.68,24,Education Loan
+40,Female,Single,PhD,Self-Employed,0.23,2418.7,10,1507850,2.11,60,Personal Loan
+50,Female,Widowed,Master,Self-Employed,0.32,1268.8,1,4046480,6.18,12,Auto Loan
+20,Male,Widowed,PhD,Self-Employed,0.9,1730.1,1,956803,4.37,60,Personal Loan
+35,Male,Single,PhD,Self-Employed,0.08,2491.3,3,3496444,4.79,12,Education Loan
+42,Female,Divorced,PhD,Self-Employed,0.83,1081.4,14,4020088,1.84,48,Personal Loan
+59,Female,Divorced,PhD,Unemployed,0.35,1065.1,3,2105598,2.84,60,Home Loan
+48,Male,Widowed,Bachelor,Self-Employed,0.52,1877.6,1,4883014,7.03,48,Home Loan
+20,Female,Married,Master,Employed,0.79,1808.9,12,478298,4.68,48,Personal Loan
+57,Male,Divorced,Bachelor,Employed,0.88,1205.7,7,4013031,3.61,24,Education Loan
+63,Male,Divorced,Master,Unemployed,0.34,1245.2,4,4340453,4.19,60,Personal Loan
+41,Male,Single,High School,Employed,0.46,1194.6,10,580303,7.48,12,Home Loan
+67,Male,Single,PhD,Unemployed,0.41,2428.8,13,998651,6.74,12,Home Loan
+49,Male,Married,Bachelor,Unemployed,0.01,2129.8,2,3327657,3.41,60,Education Loan
+64,Female,Divorced,Master,Employed,0.3,2581.0,10,4960860,2.32,24,Personal Loan
+39,Female,Divorced,High School,Self-Employed,0.46,2938.7,5,3346640,3.26,24,Home Loan
+40,Female,Single,High School,Employed,0.41,1685.4,6,4198695,7.95,24,Home Loan
+19,Female,Divorced,PhD,Employed,0.72,666.7,9,2670891,5.57,12,Personal Loan
+44,Male,Widowed,Master,Unemployed,0.38,620.2,4,4626167,5.23,48,Personal Loan
+59,Male,Single,Bachelor,Employed,0.49,1239.2,2,569119,5.67,24,Auto Loan
+19,Male,Married,PhD,Unemployed,0.43,2831.4,5,1973957,4.06,12,Education Loan
+43,Male,Single,Bachelor,Self-Employed,0.74,1808.0,3,2352094,7.15,12,Education Loan
+34,Female,Divorced,High School,Self-Employed,0.86,1179.5,2,2202271,5.16,48,Personal Loan
+57,Male,Married,Bachelor,Self-Employed,0.53,1497.9,12,2855376,2.32,60,Education Loan
+50,Male,Single,Bachelor,Employed,0.79,1996.5,1,3966558,2.4,60,Home Loan
+26,Female,Widowed,PhD,Unemployed,0.3,2132.4,10,3741570,5.26,24,Personal Loan
+60,Female,Widowed,Bachelor,Self-Employed,0.54,884.8,2,3042362,8.06,24,Personal Loan
+65,Female,Single,PhD,Unemployed,0.35,2942.6,6,1211988,3.66,48,Personal Loan
+56,Female,Widowed,High School,Unemployed,0.41,1861.9,8,1600346,7.59,24,Auto Loan
+46,Male,Widowed,PhD,Self-Employed,0.73,839.2,13,4444921,6.85,48,Education Loan
+59,Male,Widowed,PhD,Self-Employed,0.88,2734.1,3,3264449,3.23,12,Auto Loan
+43,Female,Married,Master,Unemployed,0.12,686.6,11,615398,1.75,24,Home Loan
+52,Male,Widowed,Bachelor,Self-Employed,0.63,2769.3,9,4317910,2.21,12,Education Loan
+67,Male,Widowed,High School,Unemployed,0.58,2991.4,12,1597514,6.6,36,Auto Loan
+42,Male,Widowed,PhD,Unemployed,0.12,2251.1,9,3332918,2.9,48,Personal Loan
+41,Female,Married,High School,Self-Employed,0.21,2426.1,2,4945371,4.1,36,Auto Loan
+30,Male,Single,Master,Employed,0.31,1343.3,8,270102,5.01,24,Personal Loan
+24,Female,Divorced,Bachelor,Self-Employed,0.17,2853.9,10,157631,6.58,12,Auto Loan
+53,Male,Widowed,PhD,Employed,0.24,1824.3,11,1353054,2.29,24,Auto Loan
+62,Male,Single,Bachelor,Unemployed,0.27,2331.0,12,2343697,4.34,36,Auto Loan
+37,Male,Widowed,Master,Unemployed,0.34,2810.3,5,3169016,4.9,24,Personal Loan
+18,Female,Married,Master,Employed,0.75,2937.9,4,1736334,5.29,60,Auto Loan
+25,Male,Single,High School,Unemployed,0.57,2583.0,10,3363030,7.23,36,Education Loan
+63,Female,Married,PhD,Employed,0.99,1257.5,5,1857199,2.7,24,Education Loan
+33,Female,Widowed,High School,Employed,0.41,2916.4,4,3217443,7.15,12,Education Loan
+31,Female,Widowed,Master,Unemployed,0.75,2070.3,8,1648004,6.35,24,Personal Loan
+29,Male,Married,Bachelor,Employed,0.87,2826.6,4,1739187,5.39,12,Personal Loan
+68,Male,Divorced,High School,Self-Employed,0.68,2190.3,13,3337775,6.4,60,Education Loan
+40,Male,Married,High School,Self-Employed,0.41,1268.1,10,4471595,4.38,24,Education Loan
+32,Male,Widowed,Bachelor,Unemployed,0.75,1425.1,12,3470096,2.47,60,Education Loan
+45,Female,Married,High School,Unemployed,0.2,1876.2,13,1340363,6.16,36,Home Loan
+51,Female,Divorced,Bachelor,Employed,0.33,2475.0,14,3456839,5.17,12,Education Loan
+19,Female,Married,PhD,Employed,0.55,1295.0,6,3123506,5.98,36,Auto Loan
+49,Male,Divorced,Bachelor,Employed,0.58,1949.3,2,4307839,3.87,12,Home Loan
+40,Female,Divorced,PhD,Employed,0.02,1364.1,5,1571014,7.85,60,Home Loan
+39,Male,Married,Bachelor,Self-Employed,0.95,2539.4,6,4926952,5.61,48,Personal Loan
+68,Female,Married,Master,Self-Employed,0.7,1666.8,5,4787551,2.1,24,Auto Loan
+42,Male,Single,Master,Unemployed,0.5,691.8,12,4599369,4.65,60,Personal Loan
+39,Male,Widowed,PhD,Employed,0.93,915.1,2,2829648,6.79,12,Personal Loan
+39,Female,Divorced,PhD,Employed,0.44,652.8,14,3267983,7.06,12,Auto Loan
+66,Female,Single,Master,Unemployed,0.98,1748.3,7,3664250,4.96,12,Personal Loan
+69,Female,Married,PhD,Employed,0.51,765.8,4,761972,7.76,12,Auto Loan
+59,Female,Widowed,Bachelor,Employed,0.11,785.3,8,269427,3.37,24,Auto Loan
+23,Male,Single,Bachelor,Employed,0.76,2852.6,7,3587507,4.37,36,Personal Loan
+32,Female,Divorced,Master,Employed,0.68,2681.6,7,3641171,7.79,48,Education Loan
+60,Female,Single,High School,Employed,0.77,1630.2,9,2249155,7.77,24,Personal Loan
+54,Female,Divorced,Bachelor,Unemployed,0.95,2964.5,1,4986820,6.3,12,Home Loan
+50,Male,Married,PhD,Employed,0.78,500.5,10,3753185,7.51,24,Personal Loan
+25,Male,Widowed,High School,Unemployed,0.61,2034.9,6,2367681,2.12,60,Auto Loan
+61,Female,Widowed,High School,Employed,0.86,2041.1,6,2865825,7.55,12,Home Loan
+61,Male,Widowed,Bachelor,Self-Employed,0.67,1643.6,6,724261,3.74,48,Auto Loan
+22,Female,Married,Bachelor,Self-Employed,0.41,1492.4,13,3780433,2.75,12,Education Loan
+56,Male,Divorced,High School,Self-Employed,0.89,1638.5,12,4436111,3.18,48,Education Loan
+21,Male,Married,High School,Self-Employed,0.22,1537.4,6,34363,4.43,48,Home Loan
+23,Male,Widowed,Master,Unemployed,0.71,2326.2,12,404798,3.26,36,Education Loan
+62,Male,Married,PhD,Unemployed,0.88,838.4,10,2055990,3.74,36,Education Loan
+49,Female,Married,Master,Employed,0.73,994.1,7,1395049,2.44,24,Personal Loan
+69,Female,Married,Bachelor,Self-Employed,0.7,951.3,14,2108772,3.57,24,Personal Loan
+47,Female,Divorced,Master,Unemployed,0.75,1156.2,10,1508447,5.51,48,Education Loan
+64,Male,Single,Master,Employed,0.47,1813.1,6,3251147,4.59,12,Education Loan
+52,Female,Single,Master,Employed,0.87,778.0,1,4897198,3.93,60,Personal Loan
+57,Female,Married,Master,Unemployed,0.2,2670.4,3,1555288,6.73,60,Education Loan
+69,Female,Single,PhD,Self-Employed,0.13,1243.4,2,4112622,7.75,12,Education Loan
+33,Male,Single,PhD,Employed,0.29,906.3,6,1605123,6.8,12,Auto Loan
+30,Male,Married,High School,Self-Employed,0.53,2189.1,8,4224959,3.82,36,Education Loan
+67,Male,Married,Bachelor,Self-Employed,0.51,595.2,3,2009085,6.71,60,Home Loan
+59,Female,Widowed,Master,Self-Employed,0.82,2049.9,10,959133,2.56,48,Auto Loan
+47,Female,Single,High School,Employed,0.4,2245.5,8,460400,2.41,24,Home Loan
+36,Female,Divorced,High School,Self-Employed,0.48,1037.3,8,4870774,3.92,36,Education Loan
+34,Male,Married,High School,Employed,0.01,604.9,5,4079305,7.15,60,Personal Loan
+36,Male,Widowed,PhD,Self-Employed,0.41,1409.1,8,1401538,3.22,12,Auto Loan
+45,Female,Divorced,Master,Employed,0.65,746.5,6,4117560,1.94,60,Personal Loan
+43,Male,Single,Master,Self-Employed,0.02,791.2,5,181236,2.42,48,Auto Loan
+54,Male,Widowed,Bachelor,Unemployed,0.28,1135.7,9,3020129,7.51,36,Personal Loan
+43,Male,Married,Master,Self-Employed,0.21,1238.7,14,99743,5.94,12,Auto Loan
+40,Male,Divorced,Master,Self-Employed,0.04,1824.9,7,4652179,3.27,48,Auto Loan
+26,Female,Married,High School,Employed,0.48,2196.0,8,4122924,5.39,24,Home Loan
+29,Male,Single,Bachelor,Employed,0.18,1981.9,1,1965206,5.19,36,Personal Loan
+18,Male,Divorced,Master,Self-Employed,0.74,870.9,11,4098077,6.09,48,Home Loan
+18,Male,Single,PhD,Unemployed,0.85,930.2,2,1148422,3.13,48,Home Loan
+64,Male,Single,Master,Unemployed,0.55,2696.9,8,768795,7.55,12,Personal Loan
+51,Female,Widowed,High School,Employed,0.98,1895.9,12,1774688,3.67,24,Auto Loan
+49,Female,Married,PhD,Unemployed,0.45,2674.8,9,2967817,6.36,48,Home Loan
+65,Male,Divorced,High School,Self-Employed,0.51,1428.9,4,2714489,1.61,36,Personal Loan
+42,Male,Single,Master,Employed,0.99,2036.0,12,249647,4.11,48,Auto Loan
+57,Male,Single,PhD,Self-Employed,0.23,1809.2,10,4494266,3.96,60,Home Loan
+62,Male,Divorced,Bachelor,Employed,0.94,1297.8,11,4103776,5.3,36,Home Loan
+18,Male,Single,Bachelor,Employed,0.04,1674.8,10,4524153,2.01,36,Home Loan
+33,Male,Widowed,PhD,Employed,0.45,1756.2,14,4748696,7.03,48,Auto Loan
+56,Female,Widowed,PhD,Employed,0.07,1001.9,9,4590784,3.02,12,Home Loan
+22,Male,Widowed,High School,Unemployed,0.73,1287.5,4,3807920,6.24,36,Auto Loan
+39,Female,Widowed,PhD,Self-Employed,0.61,2478.5,10,3782515,7.12,60,Education Loan
+46,Female,Single,High School,Self-Employed,0.71,2789.5,10,2952609,5.43,12,Home Loan
+20,Male,Divorced,Master,Self-Employed,0.37,1399.5,10,1810200,6.69,12,Education Loan
+29,Female,Divorced,High School,Employed,0.37,1267.4,9,434632,6.13,12,Personal Loan
+43,Female,Divorced,PhD,Unemployed,0.05,988.0,11,1582732,3.99,36,Home Loan
+33,Female,Divorced,PhD,Self-Employed,0.35,2196.2,7,1950593,7.16,12,Personal Loan
+68,Female,Married,Master,Unemployed,0.93,1307.7,2,1519837,3.56,48,Personal Loan
+54,Female,Divorced,PhD,Employed,0.38,2969.4,9,2750855,5.5,12,Personal Loan
+39,Female,Married,PhD,Self-Employed,0.83,1314.2,4,1501625,6.72,60,Education Loan
+46,Male,Married,Bachelor,Unemployed,0.84,1485.3,8,3350444,4.15,24,Auto Loan
+31,Female,Widowed,Bachelor,Employed,0.37,2008.3,14,3760222,3.62,60,Education Loan
+45,Female,Married,Master,Unemployed,0.63,2504.2,7,1390188,4.72,36,Education Loan
+22,Female,Single,High School,Self-Employed,0.1,1673.8,13,3137555,7.23,12,Personal Loan
+64,Male,Married,Bachelor,Self-Employed,0.1,1556.6,7,3070465,8.01,12,Home Loan
+66,Female,Widowed,High School,Employed,0.05,2989.1,8,3179451,5.32,48,Auto Loan
+47,Male,Married,PhD,Employed,0.58,526.2,1,2828767,6.13,12,Personal Loan
+63,Female,Single,Bachelor,Employed,0.43,2737.7,5,3876610,7.82,60,Auto Loan
+69,Male,Single,Master,Unemployed,0.55,872.9,2,1472333,2.19,36,Education Loan
+22,Male,Single,Master,Unemployed,0.52,2464.8,2,580217,3.12,24,Auto Loan
+29,Female,Widowed,Master,Unemployed,0.35,2044.8,1,133199,6.46,12,Auto Loan
+33,Female,Widowed,Bachelor,Employed,0.68,1354.6,5,2138825,7.27,24,Home Loan
+43,Male,Divorced,High School,Self-Employed,0.76,2684.7,2,434190,7.5,12,Personal Loan
+43,Female,Widowed,PhD,Self-Employed,0.01,532.3,4,3482696,4.41,36,Auto Loan
+65,Male,Single,High School,Unemployed,0.21,1066.7,3,2130677,2.13,60,Auto Loan
+38,Male,Single,High School,Unemployed,0.71,1917.2,3,2689244,4.56,36,Education Loan
+56,Male,Widowed,PhD,Self-Employed,0.39,1378.9,2,3232989,3.12,24,Education Loan
+53,Male,Married,PhD,Self-Employed,0.66,2025.9,13,4961904,3.54,12,Auto Loan
+50,Male,Widowed,Bachelor,Unemployed,0.35,560.3,6,2607979,6.91,24,Personal Loan
+47,Female,Widowed,Bachelor,Unemployed,0.39,791.1,2,2026307,2.03,60,Auto Loan
+54,Male,Single,Bachelor,Self-Employed,0.16,817.7,14,3971643,7.29,36,Auto Loan
+40,Male,Divorced,Bachelor,Employed,0.26,973.2,14,2114417,4.49,24,Home Loan
+27,Female,Single,Bachelor,Unemployed,0.61,1648.3,8,819195,5.67,24,Personal Loan
+22,Male,Divorced,PhD,Self-Employed,0.43,2380.3,8,4220037,2.13,60,Home Loan
+53,Female,Single,High School,Self-Employed,0.77,2763.8,13,908628,3.86,12,Personal Loan
+51,Female,Widowed,Bachelor,Self-Employed,0.85,2588.4,14,3771054,2.13,24,Personal Loan
+69,Female,Single,Bachelor,Self-Employed,0.54,992.2,12,2406716,8.23,60,Personal Loan
+48,Male,Single,High School,Employed,0.76,1602.9,5,2565517,7.15,12,Home Loan
+27,Male,Single,Bachelor,Self-Employed,0.31,998.5,10,1079634,4.72,12,Home Loan
+36,Male,Widowed,High School,Unemployed,0.41,1161.2,7,2353453,3.07,36,Home Loan
+49,Female,Widowed,High School,Employed,0.71,1758.9,4,1355649,8.03,60,Education Loan
+18,Male,Widowed,PhD,Self-Employed,0.39,670.3,1,1011675,3.91,12,Home Loan
+22,Female,Widowed,Master,Employed,0.59,1045.4,11,2067244,2.63,36,Education Loan
+62,Male,Divorced,PhD,Unemployed,0.19,2838.4,2,2717929,5.44,48,Education Loan
+21,Female,Divorced,Master,Self-Employed,0.6,1665.3,10,3858444,8.11,60,Education Loan
+33,Male,Married,Master,Unemployed,0.86,1613.5,10,2184749,1.53,48,Auto Loan
+41,Male,Widowed,Master,Self-Employed,0.87,536.4,4,3152536,3.17,12,Auto Loan
+33,Male,Divorced,Bachelor,Self-Employed,0.72,1118.5,1,1851049,8.07,60,Auto Loan
+19,Female,Single,PhD,Self-Employed,0.75,2665.7,13,4282513,2.7,36,Education Loan
+66,Female,Widowed,Master,Self-Employed,0.56,911.6,8,3938125,2.29,12,Education Loan
+45,Male,Married,High School,Self-Employed,0.58,1537.8,9,4135186,5.49,60,Personal Loan
+49,Male,Married,Bachelor,Employed,0.13,535.8,4,3348669,7.53,60,Education Loan
+44,Female,Married,PhD,Self-Employed,0.44,1695.8,10,3832147,4.84,48,Auto Loan
+37,Female,Single,Master,Self-Employed,0.45,552.6,3,634152,8.46,12,Education Loan
+41,Female,Divorced,High School,Employed,0.96,2549.0,2,2255772,6.25,36,Education Loan
+29,Male,Single,PhD,Employed,0.43,2562.1,5,4370866,2.02,36,Personal Loan
+67,Female,Widowed,PhD,Employed,0.55,2469.4,14,2314310,8.45,12,Education Loan
+52,Male,Married,Bachelor,Employed,0.53,1208.4,3,986264,4.36,12,Home Loan
+50,Female,Single,PhD,Employed,0.64,2593.1,10,4103569,3.51,24,Personal Loan
+50,Male,Single,Bachelor,Employed,0.75,1857.5,7,4490757,5.41,48,Education Loan
+68,Female,Divorced,Master,Self-Employed,0.23,1434.5,11,3938094,3.63,12,Education Loan
+60,Female,Divorced,Bachelor,Self-Employed,0.53,2063.3,6,2975483,2.11,12,Personal Loan
+54,Female,Married,High School,Unemployed,0.83,530.9,1,4429713,1.51,24,Education Loan
+29,Female,Single,Bachelor,Self-Employed,0.46,857.4,12,2800353,4.65,24,Auto Loan
+20,Female,Single,High School,Self-Employed,0.28,2355.7,8,4943229,7.36,60,Home Loan
+18,Male,Divorced,Bachelor,Employed,0.65,1110.4,2,3071316,5.51,36,Home Loan
+50,Female,Single,PhD,Employed,0.82,1995.0,5,2475849,8.49,48,Auto Loan
+57,Female,Single,Master,Self-Employed,0.06,1462.8,9,2943865,3.51,60,Education Loan
+27,Female,Single,High School,Unemployed,0.78,2637.0,8,592314,3.46,12,Education Loan
+60,Male,Divorced,Bachelor,Employed,0.82,2881.0,2,3851185,2.62,24,Home Loan
+61,Female,Married,Bachelor,Self-Employed,0.46,2708.9,9,2515700,2.65,36,Education Loan
+46,Male,Widowed,Bachelor,Self-Employed,0.98,1176.5,5,155693,3.5,60,Home Loan
+30,Female,Married,PhD,Unemployed,0.79,985.4,10,1659734,7.05,36,Home Loan
+29,Female,Widowed,PhD,Unemployed,0.77,1686.1,14,3698190,7.84,24,Auto Loan
+48,Male,Single,High School,Employed,0.75,518.3,6,920789,8.33,60,Home Loan
+63,Female,Married,High School,Unemployed,0.15,564.5,13,895621,3.13,60,Education Loan
+19,Male,Widowed,PhD,Self-Employed,0.22,1883.2,3,4503122,7.67,36,Education Loan
+68,Male,Divorced,High School,Self-Employed,0.46,1801.1,13,571548,3.8,24,Personal Loan
+67,Female,Divorced,Master,Unemployed,0.26,2986.5,3,714824,2.29,12,Education Loan
+52,Male,Married,Master,Unemployed,0.42,1004.6,10,1842500,7.59,60,Personal Loan
+40,Female,Married,PhD,Unemployed,0.89,1145.3,8,4389845,5.95,12,Home Loan
+34,Female,Single,High School,Unemployed,0.82,783.9,11,1713728,2.65,24,Education Loan
+43,Male,Married,Bachelor,Employed,0.63,2793.9,10,4772315,4.51,60,Auto Loan
+25,Male,Single,Master,Unemployed,0.86,2444.5,10,3387136,3.51,60,Auto Loan
+46,Male,Single,PhD,Employed,0.78,2555.8,12,478451,6.66,12,Auto Loan
+43,Male,Divorced,High School,Self-Employed,0.43,2756.9,2,3397841,4.67,48,Home Loan
+27,Female,Divorced,PhD,Unemployed,0.2,1812.2,11,3232026,8.42,12,Home Loan
+43,Female,Widowed,Bachelor,Employed,0.51,1628.0,12,4787830,1.88,12,Personal Loan
+51,Male,Divorced,Master,Unemployed,0.74,1326.0,12,269425,3.99,48,Auto Loan
+68,Female,Divorced,PhD,Self-Employed,0.44,1973.0,2,520609,4.87,24,Personal Loan
+58,Female,Married,PhD,Self-Employed,0.67,1635.7,13,4504893,5.02,24,Personal Loan
+24,Female,Divorced,PhD,Self-Employed,0.09,1628.9,5,4913467,3.71,60,Education Loan
+21,Female,Widowed,Bachelor,Unemployed,0.75,2842.3,6,2103333,6.6,36,Education Loan
+67,Male,Married,PhD,Unemployed,0.81,2960.1,12,640458,7.62,36,Auto Loan
+62,Male,Widowed,Bachelor,Employed,0.71,2491.2,2,1978093,8.07,60,Home Loan
+28,Female,Divorced,Bachelor,Self-Employed,0.97,2391.9,5,2454913,7.14,36,Education Loan
+46,Male,Widowed,Bachelor,Unemployed,0.83,2201.4,7,3797132,7.45,12,Home Loan
+53,Male,Married,Master,Self-Employed,0.9,915.2,10,3819821,5.35,12,Personal Loan
+42,Male,Single,Master,Self-Employed,0.93,647.8,10,805911,7.28,48,Personal Loan
+38,Female,Widowed,PhD,Employed,0.8,2226.8,8,4803953,3.62,48,Personal Loan
+53,Female,Widowed,PhD,Employed,0.67,2322.0,12,1735240,4.29,60,Personal Loan
+27,Female,Married,Master,Employed,0.01,617.4,7,438910,3.72,60,Auto Loan
+54,Male,Married,High School,Employed,0.47,2820.1,8,3279960,4.77,60,Personal Loan
+26,Female,Widowed,Master,Self-Employed,0.57,727.9,14,4047746,3.5,12,Education Loan
+41,Female,Divorced,Bachelor,Employed,0.3,1214.8,12,91171,8.23,36,Personal Loan
+52,Male,Widowed,Master,Employed,0.32,2181.0,9,2483447,3.69,60,Home Loan
+66,Female,Married,Bachelor,Employed,0.96,924.7,5,2193448,2.19,60,Education Loan
+52,Female,Single,PhD,Employed,0.89,638.5,13,1199138,5.19,12,Home Loan
+65,Male,Single,High School,Self-Employed,0.85,1327.9,5,2259476,1.9,12,Home Loan
+53,Male,Divorced,PhD,Employed,0.41,2414.9,11,2769374,2.27,12,Auto Loan
+35,Male,Widowed,Bachelor,Self-Employed,0.01,1534.2,10,1462242,3.04,36,Auto Loan
+66,Female,Single,Bachelor,Unemployed,0.08,2132.4,4,3473894,4.75,60,Home Loan
+56,Female,Widowed,Bachelor,Self-Employed,0.31,1949.0,13,793258,4.53,24,Home Loan
+49,Female,Married,High School,Self-Employed,0.02,555.5,9,1906999,7.1,24,Personal Loan
+41,Male,Single,Master,Employed,0.02,2971.3,5,2862889,6.68,60,Education Loan
+40,Male,Divorced,PhD,Unemployed,0.92,603.6,14,1370573,4.48,60,Personal Loan
+49,Female,Married,PhD,Unemployed,0.71,2919.5,2,1887887,3.84,60,Auto Loan
+54,Female,Divorced,Master,Unemployed,0.31,1874.7,10,1771201,3.72,60,Auto Loan
+29,Male,Married,PhD,Unemployed,0.13,2907.9,8,2347180,6.92,36,Personal Loan
+66,Male,Single,High School,Self-Employed,0.51,786.9,7,3495862,1.86,24,Education Loan
+30,Male,Divorced,PhD,Unemployed,0.01,1726.0,8,1410507,1.59,48,Home Loan
+40,Male,Divorced,Bachelor,Self-Employed,0.94,923.8,12,4245040,7.07,24,Personal Loan
+42,Female,Married,Master,Self-Employed,0.41,627.4,3,4413428,4.84,24,Auto Loan
+52,Male,Divorced,High School,Self-Employed,0.4,2043.8,4,2574462,2.42,12,Education Loan
+58,Female,Married,Master,Unemployed,0.39,1019.5,5,2767398,3.15,60,Auto Loan
+47,Female,Married,High School,Employed,0.07,1969.2,6,398742,8.03,60,Education Loan
+34,Female,Married,Bachelor,Employed,0.64,780.9,1,2331945,7.52,60,Education Loan
+66,Male,Married,Master,Unemployed,0.73,1330.0,4,652911,6.47,12,Education Loan
+37,Male,Single,PhD,Employed,0.68,2454.1,11,686935,4.88,36,Personal Loan
+65,Male,Married,High School,Employed,0.14,1592.6,12,1695124,5.14,36,Personal Loan
+42,Male,Widowed,Master,Self-Employed,0.58,2069.4,10,3133305,8.33,48,Personal Loan
+39,Female,Divorced,PhD,Self-Employed,0.57,2118.6,13,4637163,8.26,36,Education Loan
+30,Male,Widowed,Master,Unemployed,0.87,2609.4,5,4083332,3.01,36,Education Loan
+36,Male,Single,Master,Unemployed,0.38,1312.3,7,411072,7.18,60,Auto Loan
+66,Female,Widowed,Master,Employed,0.37,2218.2,13,2105637,2.88,24,Home Loan
+53,Male,Divorced,High School,Self-Employed,0.62,2904.0,5,2798302,2.99,36,Personal Loan
+29,Female,Widowed,PhD,Unemployed,0.63,2325.6,13,966010,6.23,36,Education Loan
+58,Female,Single,Bachelor,Unemployed,0.47,1724.7,13,3531302,4.34,12,Auto Loan
+36,Female,Married,High School,Unemployed,0.44,2076.8,1,753264,8.02,48,Auto Loan
+29,Female,Widowed,High School,Unemployed,0.49,2349.2,11,4869633,2.12,12,Auto Loan
+26,Female,Single,High School,Unemployed,0.86,2030.7,7,4478852,5.08,60,Personal Loan
+24,Female,Single,Bachelor,Unemployed,0.46,541.7,8,3921372,7.93,24,Personal Loan
+45,Female,Divorced,PhD,Employed,0.94,986.9,13,429503,7.83,48,Home Loan
+31,Female,Divorced,PhD,Self-Employed,0.5,2526.2,7,3189888,2.6,12,Auto Loan
+48,Male,Widowed,PhD,Self-Employed,0.95,1181.6,11,168253,4.07,36,Personal Loan
+69,Male,Married,Master,Unemployed,0.83,2328.9,14,679745,5.83,36,Auto Loan
+36,Male,Single,Master,Self-Employed,0.36,1430.3,13,3221369,2.62,48,Education Loan
+64,Male,Widowed,Master,Self-Employed,0.86,1804.7,4,1669537,8.28,36,Auto Loan
+33,Female,Single,Bachelor,Self-Employed,0.11,669.9,8,1289898,7.9,12,Home Loan
+22,Male,Single,Master,Unemployed,0.93,953.1,5,2374840,2.67,12,Personal Loan
+52,Female,Married,Bachelor,Unemployed,0.63,2893.0,10,781143,2.35,36,Education Loan
+29,Male,Married,PhD,Self-Employed,0.05,2725.3,9,3916377,2.1,36,Personal Loan
+42,Male,Widowed,Master,Self-Employed,0.64,2130.7,12,4500998,7.87,60,Education Loan
+69,Male,Married,Master,Unemployed,0.97,1649.1,12,3995853,2.86,24,Auto Loan
+38,Female,Married,High School,Employed,0.07,2189.4,10,1471433,4.41,48,Auto Loan
+53,Male,Widowed,Bachelor,Self-Employed,0.55,2046.5,5,3358549,4.64,12,Home Loan
+40,Female,Married,PhD,Employed,0.75,1921.4,1,1336325,5.69,48,Home Loan
+33,Female,Divorced,High School,Self-Employed,0.81,647.9,12,4700693,2.0,60,Education Loan
+56,Male,Single,High School,Employed,0.41,2082.0,9,2157865,3.09,12,Home Loan
+62,Male,Single,PhD,Employed,0.2,2422.3,12,2952050,8.02,60,Home Loan
+59,Male,Single,High School,Employed,0.04,2985.2,5,1586845,7.86,60,Home Loan
+56,Female,Single,Bachelor,Unemployed,0.58,527.7,6,998722,6.97,36,Home Loan
+31,Male,Widowed,Bachelor,Employed,0.45,2325.4,4,2047398,1.64,48,Auto Loan
+48,Female,Single,Master,Employed,0.95,1929.5,6,3537110,3.79,48,Home Loan
+22,Female,Single,High School,Employed,0.06,1585.1,12,4299639,5.9,36,Auto Loan
+52,Male,Single,Master,Self-Employed,0.69,818.9,8,1075560,3.43,48,Auto Loan
+40,Male,Single,High School,Employed,0.02,1522.7,3,2764036,7.87,36,Personal Loan
+46,Female,Divorced,Bachelor,Self-Employed,0.17,1385.9,5,101656,5.94,12,Auto Loan
+60,Female,Single,Bachelor,Employed,0.45,1257.1,2,2172766,2.0,60,Auto Loan
+28,Female,Divorced,Bachelor,Employed,0.45,2327.2,14,363153,7.86,60,Home Loan
+35,Male,Widowed,High School,Unemployed,0.69,2251.8,2,3463708,8.2,48,Auto Loan
+64,Female,Married,Bachelor,Self-Employed,0.91,1972.6,13,4139977,2.04,24,Education Loan
+29,Male,Single,High School,Employed,0.64,2846.7,7,4111153,5.23,60,Home Loan
+26,Female,Married,Master,Self-Employed,0.95,1374.6,10,997938,3.62,36,Home Loan
+27,Female,Married,High School,Self-Employed,0.88,1109.5,13,992014,4.25,24,Home Loan
+61,Male,Widowed,Master,Unemployed,0.58,2139.8,10,3811065,2.76,24,Personal Loan
+34,Female,Married,High School,Unemployed,0.83,997.0,14,872839,5.55,60,Home Loan
+55,Male,Divorced,Master,Unemployed,0.64,1287.5,11,1692245,8.21,60,Auto Loan
+24,Male,Married,Bachelor,Unemployed,0.08,1061.5,10,1074367,5.02,60,Education Loan
+63,Female,Married,Master,Unemployed,0.74,672.9,6,1116623,2.08,36,Home Loan
+30,Male,Married,Bachelor,Unemployed,0.09,2568.7,4,244898,5.84,24,Home Loan
+57,Male,Single,Bachelor,Unemployed,0.59,1136.4,5,471122,3.88,48,Education Loan
+59,Female,Single,Master,Unemployed,0.7,1682.6,1,685025,7.49,36,Home Loan
+26,Male,Divorced,High School,Employed,0.07,608.3,7,4274550,4.54,12,Personal Loan
+67,Male,Divorced,High School,Self-Employed,0.23,2248.3,8,4119683,2.85,60,Auto Loan
+44,Male,Single,PhD,Unemployed,0.92,1326.4,9,1615752,2.84,24,Education Loan
+19,Female,Divorced,High School,Unemployed,0.62,2361.8,8,3293549,6.88,36,Education Loan
+22,Male,Single,PhD,Self-Employed,0.25,1531.0,5,4775123,3.36,12,Personal Loan
+46,Female,Widowed,High School,Employed,0.69,989.4,3,817040,6.87,36,Auto Loan
+54,Female,Married,High School,Self-Employed,0.6,1782.9,10,4142443,2.94,36,Personal Loan
+55,Male,Married,Bachelor,Self-Employed,0.5,826.3,11,2453292,3.75,48,Auto Loan
+36,Male,Divorced,PhD,Unemployed,0.98,1601.3,9,3652891,4.76,48,Personal Loan
+25,Male,Single,High School,Self-Employed,0.68,1293.3,6,2164828,8.1,36,Home Loan
+65,Female,Single,PhD,Self-Employed,0.38,2779.9,5,3603345,8.02,12,Personal Loan
+62,Male,Divorced,Bachelor,Unemployed,0.8,652.3,13,1043388,2.95,24,Education Loan
+18,Male,Single,Bachelor,Unemployed,0.88,2235.0,3,2794975,4.01,24,Education Loan
+39,Male,Widowed,PhD,Unemployed,0.13,956.9,6,3093362,2.55,60,Education Loan
+69,Male,Married,Bachelor,Unemployed,0.2,1297.6,3,461989,5.07,60,Personal Loan
+34,Male,Divorced,Master,Self-Employed,0.22,1538.8,10,829555,4.72,24,Education Loan
+24,Female,Divorced,Master,Self-Employed,0.69,2770.0,12,4869382,7.81,36,Education Loan
+42,Female,Single,Bachelor,Employed,0.6,1106.4,6,4922301,8.01,36,Home Loan
+62,Male,Divorced,Master,Employed,0.62,728.3,4,3087026,4.18,48,Home Loan
+21,Male,Widowed,High School,Self-Employed,0.94,1296.7,2,2154751,4.94,48,Auto Loan
+53,Male,Single,PhD,Employed,0.78,761.7,8,158469,7.77,60,Auto Loan
+23,Male,Single,High School,Self-Employed,0.13,821.5,4,2347422,7.15,24,Auto Loan
+48,Female,Single,PhD,Employed,0.35,1934.6,9,4180555,1.53,36,Personal Loan
+36,Male,Single,Bachelor,Unemployed,0.44,652.3,7,526394,3.74,24,Auto Loan
+61,Female,Widowed,High School,Employed,0.4,577.3,12,3784159,4.45,12,Personal Loan
+56,Female,Single,Bachelor,Unemployed,0.67,2286.0,2,2100825,3.11,24,Personal Loan
+44,Male,Divorced,Bachelor,Unemployed,0.89,1404.1,4,530112,2.9,12,Auto Loan
+27,Female,Widowed,PhD,Unemployed,0.31,813.4,5,3300303,1.76,48,Auto Loan
+43,Female,Married,PhD,Unemployed,0.55,1134.0,3,2714114,6.0,48,Personal Loan
+36,Female,Married,PhD,Employed,0.79,2105.2,9,2656785,3.34,60,Home Loan
+56,Female,Divorced,High School,Self-Employed,0.42,1188.8,13,2428853,1.87,24,Education Loan
+20,Male,Divorced,Master,Unemployed,0.17,1736.3,5,3089710,3.12,24,Education Loan
+62,Male,Widowed,PhD,Employed,0.47,804.2,2,542249,7.11,12,Education Loan
+30,Female,Married,PhD,Unemployed,0.06,1970.2,11,4394077,7.46,48,Home Loan
+67,Male,Married,High School,Employed,0.94,1290.2,3,4547112,4.88,12,Personal Loan
+45,Male,Married,PhD,Employed,0.07,2067.4,14,1139775,4.41,48,Auto Loan
+37,Male,Married,High School,Employed,0.44,2521.0,9,2206916,8.34,12,Personal Loan
+45,Male,Married,Bachelor,Self-Employed,0.53,2029.1,7,1180933,2.9,48,Personal Loan
+25,Male,Single,PhD,Employed,0.99,1239.4,2,1401449,3.01,12,Auto Loan
+58,Female,Divorced,PhD,Employed,0.17,1139.4,9,2528929,3.54,48,Home Loan
+56,Male,Single,Bachelor,Self-Employed,0.11,1318.6,14,3002933,2.71,12,Education Loan
+18,Male,Married,Bachelor,Self-Employed,0.01,911.6,4,869734,4.16,24,Education Loan
+20,Male,Widowed,Bachelor,Employed,0.16,952.9,13,1677832,7.88,60,Personal Loan
+30,Male,Widowed,PhD,Self-Employed,0.21,2476.7,9,2267728,5.81,12,Home Loan
+45,Female,Married,Master,Unemployed,0.63,1461.8,13,1882154,4.38,60,Education Loan
+66,Female,Married,Master,Unemployed,0.22,1590.0,2,2717834,8.04,24,Home Loan
+42,Female,Widowed,Master,Self-Employed,0.02,1985.1,12,923605,1.84,24,Auto Loan
+50,Female,Single,PhD,Self-Employed,0.83,1974.1,10,3019526,2.97,48,Personal Loan
+55,Male,Single,Bachelor,Employed,0.37,668.4,12,1520399,5.46,60,Personal Loan
+23,Female,Married,PhD,Self-Employed,0.35,2578.9,4,26939,5.81,36,Home Loan
+61,Male,Single,Bachelor,Employed,0.3,943.3,5,2551083,1.78,48,Education Loan
+62,Male,Widowed,PhD,Unemployed,0.98,2307.7,2,4510908,4.32,60,Home Loan
+49,Male,Single,PhD,Self-Employed,0.17,2431.7,10,2042656,6.04,12,Auto Loan
+62,Male,Married,Bachelor,Employed,0.9,2287.2,1,4075011,6.39,12,Education Loan
+64,Male,Widowed,Master,Employed,0.78,1947.4,7,3299986,5.97,24,Education Loan
+38,Female,Single,Bachelor,Unemployed,0.08,536.5,10,1277403,3.74,36,Home Loan
+33,Female,Divorced,High School,Self-Employed,0.99,1400.9,1,1325777,2.15,12,Auto Loan
+38,Female,Widowed,High School,Unemployed,0.27,2012.1,11,4354109,4.49,60,Education Loan
+28,Female,Widowed,Bachelor,Employed,0.1,1468.6,11,1864165,2.4,60,Personal Loan
+54,Male,Divorced,PhD,Employed,0.83,2658.7,8,2257837,8.13,12,Auto Loan
+53,Female,Divorced,High School,Self-Employed,0.71,1272.0,3,387224,4.83,60,Education Loan
+52,Male,Widowed,High School,Employed,0.62,1233.8,14,4683802,3.72,60,Home Loan
+36,Female,Divorced,PhD,Self-Employed,0.16,1165.0,10,4442482,6.86,24,Education Loan
+37,Male,Married,PhD,Unemployed,0.48,1332.0,6,4463722,4.99,36,Personal Loan
+35,Male,Married,Master,Self-Employed,0.78,1893.5,7,244433,3.67,24,Auto Loan
+64,Female,Married,PhD,Self-Employed,0.3,2267.5,10,2036199,7.18,36,Education Loan
+58,Male,Widowed,Bachelor,Employed,0.31,2156.4,1,374446,7.57,60,Personal Loan
+66,Male,Divorced,Bachelor,Employed,0.0,2519.3,14,458934,6.21,36,Education Loan
+31,Female,Divorced,Master,Self-Employed,0.17,2714.8,6,2667885,1.83,60,Education Loan
+32,Male,Single,High School,Employed,0.88,2540.2,7,1892226,5.46,60,Auto Loan
+48,Female,Single,High School,Employed,0.44,547.4,6,2917658,6.84,24,Home Loan
+18,Female,Divorced,PhD,Employed,0.98,2339.8,4,2088038,2.46,24,Home Loan
+20,Female,Divorced,Bachelor,Self-Employed,0.4,1021.0,1,1481617,3.1,48,Personal Loan
+33,Male,Divorced,High School,Employed,0.72,832.3,11,833271,7.68,12,Personal Loan
+40,Male,Widowed,Master,Self-Employed,0.28,2096.2,9,1952120,1.64,48,Personal Loan
+28,Male,Divorced,Master,Employed,0.36,1299.4,4,3021098,6.77,48,Auto Loan
+29,Female,Single,Bachelor,Unemployed,0.19,642.8,7,2699762,4.82,36,Home Loan
+27,Male,Widowed,Master,Employed,0.35,844.1,7,2949905,4.63,60,Personal Loan
+49,Female,Divorced,Master,Employed,0.55,502.3,2,1692964,1.55,60,Personal Loan
+33,Female,Single,Bachelor,Self-Employed,0.99,2758.1,1,831939,7.24,60,Education Loan
+25,Male,Widowed,PhD,Self-Employed,0.66,561.5,8,4303548,4.02,12,Education Loan
+55,Female,Divorced,PhD,Employed,0.2,1023.6,8,3647588,5.29,36,Personal Loan
+29,Male,Divorced,Master,Unemployed,0.04,1540.7,7,2495084,6.24,36,Education Loan
+41,Male,Divorced,PhD,Employed,0.13,1391.4,14,3513123,6.42,60,Education Loan
+45,Male,Widowed,PhD,Employed,0.56,2779.3,8,3965966,8.19,48,Education Loan
+25,Male,Single,Master,Unemployed,0.77,600.7,3,3624705,5.22,12,Auto Loan
+45,Male,Single,PhD,Self-Employed,0.94,1780.5,11,2510120,4.3,48,Personal Loan
+53,Female,Married,Master,Employed,0.02,2201.2,2,3942613,8.18,24,Personal Loan
+43,Female,Divorced,High School,Self-Employed,0.52,2829.2,7,4065032,5.99,36,Education Loan
+25,Female,Married,Bachelor,Self-Employed,0.47,2050.9,8,3767378,3.59,36,Auto Loan
+67,Male,Married,Bachelor,Unemployed,0.66,2509.4,1,2206274,2.39,48,Education Loan
+45,Male,Single,PhD,Unemployed,0.56,709.3,12,2439700,7.4,12,Auto Loan
+45,Male,Widowed,PhD,Self-Employed,0.69,1464.8,10,631458,4.04,36,Personal Loan
+54,Female,Widowed,PhD,Employed,0.66,1434.9,9,1541439,6.12,48,Education Loan
+58,Male,Single,Bachelor,Self-Employed,0.12,2715.7,13,4106920,4.8,12,Personal Loan
+53,Female,Widowed,High School,Employed,0.8,878.4,11,2083890,2.89,48,Auto Loan
+44,Female,Married,High School,Employed,0.12,879.7,4,3391579,5.71,12,Home Loan
+34,Male,Divorced,Bachelor,Unemployed,0.7,1321.4,14,3511661,1.92,60,Auto Loan
+26,Male,Single,High School,Employed,0.42,636.2,12,2727956,4.39,12,Home Loan
+50,Female,Divorced,Bachelor,Employed,0.51,956.1,14,4075249,5.33,24,Personal Loan
+37,Male,Widowed,High School,Self-Employed,0.9,2913.0,4,2614902,4.55,60,Personal Loan
+30,Female,Divorced,Master,Unemployed,0.89,1570.5,3,408008,6.74,48,Education Loan
+45,Male,Widowed,Master,Employed,0.82,2080.0,6,4129214,7.3,60,Home Loan
+65,Male,Widowed,Bachelor,Employed,0.51,2315.3,1,1333957,6.9,60,Auto Loan
+46,Female,Married,High School,Unemployed,0.74,1417.4,6,1864260,1.77,48,Personal Loan
+30,Male,Widowed,PhD,Self-Employed,0.51,868.1,2,3559651,2.86,48,Home Loan
+63,Female,Married,High School,Unemployed,0.87,1016.5,9,2806647,5.26,24,Auto Loan
+52,Male,Married,Master,Unemployed,0.4,1283.2,2,184001,8.04,48,Home Loan
+23,Female,Married,Master,Employed,0.97,2090.2,7,2424607,7.34,36,Auto Loan
+35,Female,Single,High School,Employed,0.93,1495.7,12,3916419,7.4,36,Auto Loan
+68,Male,Single,High School,Self-Employed,0.74,517.0,1,75867,3.62,24,Auto Loan
+22,Female,Widowed,PhD,Employed,0.28,1808.5,12,98780,4.51,12,Auto Loan
+64,Male,Married,PhD,Employed,0.13,2803.8,7,2705145,4.79,12,Home Loan
+42,Male,Single,High School,Unemployed,0.85,2530.2,5,2951478,2.6,36,Home Loan
+19,Male,Married,High School,Employed,0.17,2563.0,8,884072,1.72,48,Education Loan
+27,Female,Divorced,High School,Self-Employed,0.85,2487.6,4,3777263,8.13,24,Home Loan
+47,Female,Divorced,High School,Unemployed,0.49,1309.3,12,3859981,3.18,12,Home Loan
+67,Male,Divorced,Bachelor,Self-Employed,0.41,2413.0,10,4205031,3.18,12,Education Loan
+62,Male,Widowed,High School,Unemployed,0.9,857.9,7,4094591,2.08,60,Home Loan
+22,Female,Married,PhD,Employed,0.6,2144.3,6,1029051,8.0,36,Auto Loan
+50,Male,Divorced,Master,Unemployed,0.58,2103.9,5,1424119,5.56,48,Personal Loan
+18,Male,Single,Bachelor,Unemployed,0.56,563.9,4,1278182,6.17,24,Personal Loan
+35,Female,Divorced,High School,Employed,0.37,2469.9,7,4084161,7.88,12,Education Loan
+49,Male,Divorced,Master,Employed,0.79,2758.1,12,400732,3.92,60,Home Loan
+64,Female,Divorced,Bachelor,Self-Employed,0.25,1168.5,5,2580746,5.85,36,Home Loan
+66,Male,Widowed,Master,Self-Employed,0.94,2531.0,5,2261743,1.77,36,Education Loan
+28,Female,Single,High School,Employed,0.89,706.0,1,4036352,2.81,24,Personal Loan
+38,Male,Married,High School,Employed,0.34,1999.9,2,2286158,7.32,12,Auto Loan
+43,Male,Single,PhD,Employed,0.73,1714.1,5,3130452,6.87,24,Home Loan
+42,Female,Married,High School,Unemployed,0.57,1864.8,13,3315640,3.95,24,Education Loan
+39,Male,Widowed,High School,Unemployed,0.34,2815.5,3,2720807,4.14,60,Auto Loan
+44,Female,Widowed,Bachelor,Unemployed,0.99,2678.3,14,1472417,5.23,36,Education Loan
+66,Male,Widowed,PhD,Employed,0.03,2462.7,13,685899,1.5,48,Education Loan
+30,Female,Widowed,Bachelor,Self-Employed,0.25,1184.2,2,328774,3.19,36,Education Loan
+50,Female,Married,Master,Employed,0.52,2779.5,14,496626,2.96,36,Personal Loan
+51,Female,Divorced,High School,Unemployed,0.52,743.8,14,3033871,3.25,60,Personal Loan
+58,Female,Married,Master,Unemployed,0.59,2633.3,4,4859617,7.14,48,Education Loan
+52,Male,Single,Bachelor,Employed,0.75,1320.4,4,621868,3.46,12,Home Loan
+18,Male,Widowed,High School,Employed,0.62,634.4,4,4543910,2.84,48,Auto Loan
+38,Female,Widowed,High School,Unemployed,0.6,2173.4,4,1417757,5.03,12,Home Loan
+65,Female,Single,Bachelor,Unemployed,0.05,1078.2,3,1214656,7.56,48,Personal Loan
+23,Female,Married,Bachelor,Unemployed,0.38,1108.9,13,3466800,3.19,24,Auto Loan
+45,Male,Divorced,Bachelor,Employed,0.23,1265.1,12,748456,2.05,48,Education Loan
+34,Male,Divorced,Bachelor,Unemployed,0.27,659.2,7,1148452,3.99,60,Home Loan
+22,Male,Single,Bachelor,Unemployed,0.55,942.8,9,2656416,6.73,12,Home Loan
+48,Male,Divorced,High School,Self-Employed,0.2,512.8,12,692986,5.35,36,Education Loan
+22,Female,Married,Bachelor,Employed,0.29,1613.5,5,4564704,7.22,60,Home Loan
+55,Female,Married,High School,Self-Employed,0.24,710.6,4,2298013,8.22,12,Personal Loan
+20,Female,Single,High School,Self-Employed,0.95,2206.6,11,1777581,7.05,12,Education Loan
+40,Male,Married,Bachelor,Unemployed,0.94,1089.1,2,2358818,5.73,36,Home Loan
+54,Male,Widowed,Bachelor,Employed,0.61,2858.9,2,3425398,4.95,24,Education Loan
+54,Male,Single,PhD,Unemployed,0.92,2678.1,5,4832455,1.78,60,Auto Loan
+27,Female,Married,High School,Employed,0.79,1223.6,7,3354849,8.39,36,Education Loan
+27,Female,Single,Bachelor,Self-Employed,0.59,2458.0,10,345510,4.18,36,Home Loan
+36,Male,Divorced,Bachelor,Employed,0.01,2508.1,10,3104973,2.57,24,Personal Loan
+34,Female,Married,Bachelor,Unemployed,0.77,2966.4,9,4656637,6.17,60,Education Loan
+38,Male,Widowed,PhD,Unemployed,0.7,1994.6,13,3211824,3.49,36,Education Loan
+31,Male,Married,PhD,Unemployed,0.62,704.9,7,60248,5.6,24,Home Loan
+26,Female,Single,Master,Employed,0.76,2117.1,5,4075183,5.61,60,Personal Loan
+63,Male,Single,High School,Self-Employed,0.51,2062.4,10,2187040,4.62,48,Personal Loan
+18,Female,Married,Master,Self-Employed,0.7,2095.9,10,250346,7.35,12,Auto Loan
+68,Male,Widowed,Bachelor,Employed,0.94,1267.9,10,628821,3.35,24,Auto Loan
+62,Female,Widowed,PhD,Unemployed,0.38,2649.2,6,4246258,4.64,12,Home Loan
+30,Female,Widowed,PhD,Self-Employed,0.71,2898.7,11,4556167,5.26,48,Personal Loan
+21,Female,Single,Master,Unemployed,0.48,1044.3,12,674164,6.15,36,Personal Loan
+18,Male,Married,PhD,Employed,0.67,720.4,3,1806641,6.99,36,Auto Loan
+66,Male,Divorced,Bachelor,Unemployed,0.76,986.3,5,272739,4.26,60,Auto Loan
+57,Female,Single,PhD,Self-Employed,0.05,2551.4,8,3447464,6.02,24,Home Loan
+49,Female,Widowed,Master,Self-Employed,0.65,2191.6,1,2431961,2.55,24,Personal Loan
+51,Male,Married,Bachelor,Unemployed,0.23,2090.1,12,278116,8.03,60,Education Loan
+45,Male,Widowed,Master,Employed,0.67,1504.5,1,3433754,4.18,12,Auto Loan
+48,Male,Divorced,PhD,Unemployed,0.47,1944.6,7,1780330,6.61,36,Home Loan
+25,Female,Widowed,Master,Employed,0.77,1269.7,14,4668575,1.64,36,Personal Loan
+56,Male,Widowed,Master,Unemployed,0.12,1693.0,5,3834857,2.94,24,Personal Loan
+43,Male,Divorced,High School,Self-Employed,0.63,2482.7,14,2656460,4.91,24,Auto Loan
+51,Female,Married,PhD,Employed,0.28,2953.1,5,374765,7.65,60,Home Loan
+20,Male,Single,PhD,Employed,0.85,2831.2,1,1930382,5.19,48,Education Loan
+67,Male,Married,Master,Employed,0.93,2834.7,9,22879,8.01,12,Auto Loan
+29,Male,Divorced,High School,Self-Employed,1.0,1505.6,1,568086,4.89,48,Home Loan
+18,Female,Widowed,PhD,Unemployed,0.8,1672.0,5,3787807,4.93,48,Personal Loan
+61,Female,Married,Bachelor,Self-Employed,0.75,2264.1,10,1541618,2.34,24,Education Loan
+22,Female,Single,Master,Employed,0.22,2805.5,9,4905737,7.12,24,Home Loan
+47,Female,Divorced,PhD,Unemployed,0.34,855.0,14,4009143,3.23,24,Education Loan
+47,Female,Married,Bachelor,Self-Employed,0.47,1260.6,4,4692251,7.8,48,Home Loan
+34,Female,Single,PhD,Employed,0.77,848.1,13,169472,7.88,12,Home Loan
+65,Female,Divorced,Bachelor,Employed,0.91,2030.0,8,2101028,8.1,24,Home Loan
+64,Male,Single,Master,Self-Employed,0.19,1265.8,6,2905537,5.14,36,Home Loan
+40,Male,Divorced,PhD,Self-Employed,0.92,1315.3,11,2737850,6.24,12,Education Loan
+32,Female,Widowed,PhD,Self-Employed,0.7,677.3,3,1708019,6.95,36,Auto Loan
+54,Male,Married,High School,Employed,0.61,1374.5,4,3310335,2.42,12,Education Loan
+38,Male,Single,Master,Self-Employed,0.2,2656.2,2,1789472,5.71,24,Home Loan
+31,Female,Divorced,Bachelor,Employed,0.06,1082.7,1,3623983,1.74,60,Education Loan
+19,Male,Single,PhD,Self-Employed,0.57,2238.0,13,3159783,4.98,24,Education Loan
+28,Male,Single,PhD,Employed,0.65,2074.1,14,2407466,2.58,48,Education Loan
+68,Male,Married,Bachelor,Employed,0.21,2658.7,8,2336168,2.78,48,Home Loan
+56,Male,Widowed,Master,Unemployed,0.56,830.7,1,3918673,4.06,12,Education Loan
+55,Male,Single,High School,Self-Employed,0.86,2944.0,14,1944984,4.53,48,Personal Loan
+51,Female,Divorced,High School,Self-Employed,0.84,1956.6,13,1348971,5.86,24,Home Loan
+55,Female,Divorced,PhD,Employed,0.93,2988.7,11,4151314,2.02,36,Education Loan
+67,Female,Widowed,Bachelor,Employed,0.37,2778.8,1,4296419,5.03,24,Personal Loan
+51,Male,Divorced,PhD,Employed,0.32,1053.8,4,2047701,2.78,12,Education Loan
+35,Female,Widowed,Bachelor,Unemployed,0.75,640.4,10,4020086,5.52,48,Auto Loan
+47,Male,Divorced,High School,Unemployed,0.43,1139.1,12,3627760,5.96,36,Education Loan
+32,Male,Married,Master,Employed,0.09,1818.9,10,492870,5.4,60,Education Loan
+44,Male,Single,Bachelor,Self-Employed,0.28,929.0,6,4567612,6.67,36,Auto Loan
+68,Male,Married,High School,Self-Employed,0.42,918.6,9,4219689,3.85,36,Home Loan
+51,Female,Single,PhD,Unemployed,0.29,1656.5,1,4007581,6.86,24,Auto Loan
+69,Female,Single,Bachelor,Unemployed,0.33,583.2,7,4162109,4.53,60,Home Loan
+55,Male,Single,Master,Employed,0.29,804.7,10,2615822,4.89,12,Auto Loan
+50,Female,Married,PhD,Self-Employed,0.04,1539.7,11,127369,6.04,12,Education Loan
+41,Male,Single,PhD,Employed,0.64,657.8,5,4949294,1.63,36,Education Loan
+32,Female,Married,High School,Unemployed,0.6,1491.9,12,3729127,6.08,36,Home Loan
+47,Female,Widowed,Bachelor,Self-Employed,0.65,1685.0,8,2360876,5.83,48,Home Loan
+59,Male,Divorced,PhD,Self-Employed,0.19,1628.2,14,3383328,3.67,60,Personal Loan
+68,Female,Divorced,Master,Unemployed,0.3,2672.9,7,3629047,2.1,36,Personal Loan
+34,Male,Single,Bachelor,Employed,0.62,1825.2,4,2241737,2.14,48,Education Loan
+22,Female,Married,Master,Employed,0.6,1670.0,4,2877695,7.96,60,Education Loan
+46,Male,Divorced,PhD,Self-Employed,0.51,1526.8,6,2775847,6.32,12,Personal Loan
+21,Male,Married,Master,Unemployed,0.35,2544.1,6,1758076,2.39,48,Personal Loan
+27,Female,Married,High School,Self-Employed,0.91,2737.6,9,1660522,4.0,60,Home Loan
+34,Female,Single,Master,Unemployed,0.34,2633.1,12,1177213,5.65,48,Auto Loan
+27,Male,Divorced,Bachelor,Employed,0.46,2183.9,5,917153,7.35,36,Home Loan
+34,Female,Single,Master,Unemployed,0.68,843.4,8,2724660,1.81,24,Personal Loan
+37,Female,Single,Master,Employed,0.54,1192.2,5,3010827,3.16,12,Education Loan
+41,Male,Divorced,High School,Unemployed,0.35,615.2,2,1933298,7.73,36,Personal Loan
+22,Male,Divorced,Master,Self-Employed,0.44,2827.1,6,3635279,1.56,36,Education Loan
+51,Female,Widowed,Master,Employed,0.79,2152.0,9,4046423,2.91,60,Education Loan
+23,Male,Widowed,PhD,Self-Employed,0.28,2365.9,13,531397,8.21,48,Education Loan
+19,Male,Married,PhD,Self-Employed,0.14,1278.9,3,802425,5.79,12,Education Loan
+30,Male,Divorced,Bachelor,Employed,0.31,2614.1,1,3120997,3.33,36,Auto Loan
+60,Female,Widowed,PhD,Employed,0.85,1149.0,1,3914413,1.97,60,Personal Loan
+60,Female,Married,PhD,Self-Employed,0.09,504.1,13,1576772,1.7,12,Home Loan
+65,Male,Married,PhD,Self-Employed,0.99,1441.0,3,3011179,3.21,48,Education Loan
+28,Female,Married,PhD,Self-Employed,0.54,1926.9,10,62066,7.67,36,Education Loan
+68,Male,Widowed,High School,Self-Employed,0.98,1696.8,5,2481146,4.41,36,Home Loan
+64,Female,Divorced,PhD,Employed,0.94,2655.2,3,268480,6.54,36,Home Loan
+40,Male,Single,High School,Employed,0.45,763.5,9,4193005,7.93,12,Education Loan
+33,Male,Married,High School,Self-Employed,0.2,1884.6,8,3762331,4.36,12,Home Loan
+48,Female,Widowed,PhD,Unemployed,0.16,1782.4,3,1021214,2.84,12,Home Loan
+28,Male,Widowed,Master,Unemployed,0.24,1203.5,9,4090554,5.12,12,Auto Loan
+33,Female,Single,High School,Employed,0.71,2555.6,13,4181364,7.86,60,Home Loan
+25,Female,Single,Master,Self-Employed,0.27,2382.1,6,1945822,7.13,24,Personal Loan
+21,Male,Widowed,Master,Self-Employed,0.34,2332.1,13,2583937,1.96,60,Personal Loan
+57,Male,Divorced,PhD,Employed,0.45,2690.5,7,4207739,6.35,36,Personal Loan
+21,Female,Single,Bachelor,Unemployed,0.91,2307.0,4,1946513,5.5,60,Education Loan
+42,Male,Widowed,PhD,Unemployed,0.19,1079.6,4,3315742,7.85,48,Personal Loan
+20,Male,Single,Bachelor,Unemployed,0.01,2263.9,12,1480851,2.36,12,Auto Loan
+49,Male,Divorced,Bachelor,Employed,0.06,1269.3,13,722917,5.24,48,Personal Loan
+20,Male,Married,PhD,Unemployed,0.9,1105.4,2,2945973,7.66,48,Education Loan
+44,Male,Single,PhD,Employed,0.65,682.5,5,2946598,4.37,36,Auto Loan
+46,Female,Divorced,Bachelor,Employed,0.27,2360.1,8,4496745,4.87,12,Personal Loan
+49,Female,Widowed,PhD,Self-Employed,0.18,2277.5,7,2667179,1.99,48,Auto Loan
+67,Male,Single,Bachelor,Unemployed,0.29,1086.2,7,1461511,3.45,36,Auto Loan
+68,Male,Single,Master,Employed,0.11,2373.4,6,2710993,3.77,12,Education Loan
+36,Male,Widowed,PhD,Unemployed,0.94,2794.6,3,4212618,8.12,24,Education Loan
+38,Female,Married,Master,Unemployed,0.78,770.1,5,628119,3.48,36,Auto Loan
+22,Male,Widowed,High School,Self-Employed,0.46,1081.6,13,4017324,4.73,60,Personal Loan
+35,Female,Single,Master,Unemployed,0.86,2375.7,1,3525530,6.2,12,Education Loan
+45,Female,Widowed,Master,Self-Employed,0.25,1186.3,7,2929697,2.64,48,Auto Loan
+59,Female,Divorced,Bachelor,Employed,0.72,2061.7,9,651462,4.91,48,Home Loan
+39,Male,Widowed,Master,Unemployed,0.86,702.9,1,2337089,6.67,60,Home Loan
+38,Female,Single,PhD,Employed,0.36,1630.5,13,554653,7.57,60,Education Loan
+23,Male,Widowed,Bachelor,Unemployed,0.76,2347.7,2,4505477,5.88,48,Personal Loan
+18,Female,Married,High School,Employed,0.3,2216.3,3,403186,6.18,12,Home Loan
+22,Male,Widowed,PhD,Unemployed,0.3,2537.7,3,3765490,2.38,36,Home Loan
+58,Female,Married,High School,Unemployed,0.11,2693.6,8,4544666,8.12,60,Home Loan
+29,Male,Divorced,Master,Unemployed,0.44,2433.0,7,3314299,2.43,60,Personal Loan
+43,Female,Married,PhD,Unemployed,0.73,2179.0,6,4969691,6.92,60,Personal Loan
+63,Male,Widowed,PhD,Unemployed,0.94,579.3,10,772790,3.35,24,Education Loan
+51,Male,Single,High School,Unemployed,0.6,1837.4,10,1760093,8.04,12,Education Loan
+66,Male,Married,PhD,Unemployed,0.86,594.2,11,1230682,6.54,12,Home Loan
+31,Male,Divorced,PhD,Unemployed,0.82,2520.2,4,2905018,6.78,12,Personal Loan
+43,Female,Married,PhD,Unemployed,0.17,1301.8,9,617317,3.03,12,Auto Loan
+62,Female,Married,Master,Employed,0.49,1906.1,1,2110923,4.6,12,Home Loan
+44,Male,Married,High School,Self-Employed,0.12,1198.6,11,1703675,5.82,48,Education Loan
+26,Female,Divorced,PhD,Unemployed,0.68,2456.3,2,984303,6.89,60,Personal Loan
+43,Male,Widowed,Bachelor,Self-Employed,0.95,2716.3,14,4004417,2.23,48,Education Loan
+64,Male,Married,Bachelor,Unemployed,0.14,1496.6,4,330580,8.24,24,Education Loan
+39,Female,Married,Bachelor,Unemployed,0.73,2657.3,3,3263507,7.73,36,Personal Loan
+64,Male,Single,Bachelor,Employed,0.63,1167.7,1,4853483,3.39,60,Home Loan
+47,Male,Divorced,Master,Employed,0.58,1836.7,5,2886237,7.26,24,Personal Loan
+60,Female,Married,PhD,Self-Employed,0.39,2646.9,7,3641047,5.13,48,Home Loan
+65,Male,Divorced,High School,Employed,0.36,1314.7,2,4983064,4.73,36,Education Loan
+34,Male,Married,PhD,Employed,0.05,2885.1,5,1046658,3.7,24,Personal Loan
+43,Male,Widowed,Master,Self-Employed,0.22,804.7,6,490674,5.57,36,Auto Loan
+53,Male,Widowed,Bachelor,Employed,0.02,545.7,11,4757924,6.61,24,Home Loan
+18,Female,Married,Master,Unemployed,0.58,2760.3,7,403056,4.38,48,Auto Loan
+25,Female,Widowed,PhD,Self-Employed,0.11,671.6,1,4293335,5.9,36,Home Loan
+66,Female,Married,High School,Self-Employed,0.87,2979.7,7,3622914,6.4,24,Personal Loan
+52,Male,Widowed,Master,Unemployed,0.52,2878.5,4,193024,6.48,48,Auto Loan
+69,Male,Single,High School,Employed,0.7,842.6,8,1086048,1.86,60,Personal Loan
+32,Female,Single,Master,Self-Employed,0.41,1844.0,13,2167098,7.52,48,Home Loan
+64,Male,Single,High School,Self-Employed,0.56,962.3,4,954353,4.71,48,Home Loan
+39,Male,Divorced,High School,Unemployed,0.94,1570.4,6,3419413,3.34,60,Home Loan
+31,Male,Divorced,Bachelor,Unemployed,0.08,653.6,9,1061341,3.19,48,Home Loan
+43,Male,Single,High School,Employed,0.25,1059.8,5,4509522,4.88,60,Education Loan
+45,Female,Divorced,Bachelor,Self-Employed,0.78,1408.2,14,3840371,7.71,60,Home Loan
+40,Female,Widowed,PhD,Employed,0.1,1596.6,12,1833980,4.15,60,Auto Loan
+31,Female,Married,PhD,Employed,0.08,2943.7,4,1976849,6.75,24,Home Loan
+41,Male,Married,Bachelor,Unemployed,0.36,2519.7,8,1731742,2.18,36,Personal Loan
+19,Female,Married,Bachelor,Self-Employed,0.09,2343.5,13,4877920,4.83,24,Education Loan
+62,Female,Single,Master,Self-Employed,0.59,1842.6,9,4570351,8.44,60,Auto Loan
+43,Male,Divorced,Master,Self-Employed,0.23,2600.0,4,4723094,6.89,36,Education Loan
+31,Male,Widowed,Master,Unemployed,0.9,1348.3,3,3305453,2.97,36,Education Loan
+68,Female,Widowed,PhD,Unemployed,0.78,2272.2,8,3635613,5.01,60,Education Loan
+24,Female,Single,Master,Unemployed,0.7,2984.5,14,2146491,3.14,36,Personal Loan
+20,Female,Widowed,High School,Unemployed,0.62,1286.6,5,3574701,4.37,36,Education Loan
+64,Female,Widowed,High School,Unemployed,0.86,2185.0,2,314543,6.96,24,Education Loan
+40,Male,Widowed,Master,Self-Employed,0.22,2610.8,10,3986173,6.9,36,Home Loan
+63,Female,Widowed,High School,Employed,0.87,2789.5,9,3122261,3.1,60,Personal Loan
+60,Female,Divorced,PhD,Self-Employed,0.79,2294.8,3,1466498,7.96,12,Auto Loan
+64,Male,Widowed,High School,Employed,0.75,1209.0,12,3707925,5.65,12,Auto Loan
+62,Female,Married,PhD,Unemployed,0.56,1315.7,2,4178986,4.16,12,Auto Loan
+35,Male,Single,Bachelor,Employed,0.25,551.9,1,4723297,5.01,60,Personal Loan
+55,Male,Divorced,Bachelor,Self-Employed,0.42,2402.2,14,3101287,5.74,12,Auto Loan
